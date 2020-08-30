@@ -190,7 +190,7 @@ footer p {
 footer {
   padding-top: 30px;
   padding-bottom: 20px;
-  float: right;
+  text-align: right;
 }
 
 .menu-icon {
@@ -402,7 +402,7 @@ footer p {
 footer {
   padding-top: 30px;
   padding-bottom: 20px;
-  float: right;
+  text-align: right;
 }
 
 .menu-icon {
@@ -428,7 +428,7 @@ footer {
   }
 
   footer {
-    text-align: center;
+    text-align: right;
   }
 }
 
@@ -494,7 +494,7 @@ footer {
   }
 
   footer {
-    text-align: center;
+    text-align: right;
   }
 }
 
