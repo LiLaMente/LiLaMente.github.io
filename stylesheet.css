@@ -85,9 +85,9 @@ header {
 }
 
 .logo {
-  height: 55px;
+  height: 60px;
   opacity: 95%;
-  margin-top: 0;
+  margin-top: 10px;
 }
 
 .header-right {
