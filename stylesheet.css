@@ -132,6 +132,7 @@ header {
 
 .content-icon img {
   position: relative;
+  display: flex;
   border-radius: 10px;
   ransition-duration:0.5s;
 }
@@ -148,8 +149,8 @@ header {
 }
 
 .text-contents {
-  width: 50%;
-  display: inline-block;
+  width: 80%;
+  display: flex;
   margin-top: 10px;
   font-size: 13px;
   color: #b3aeb5;
