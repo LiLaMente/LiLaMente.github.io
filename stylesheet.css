@@ -45,7 +45,11 @@ a {
   border-radius: 4px;
   text-align: center;
 }
-
+.shop {
+  height:50px;
+  background-color: #e599f7;
+  margin: 0 10px;
+}
 .photo {
   height:50px;
   background-color: #91a7ff;
