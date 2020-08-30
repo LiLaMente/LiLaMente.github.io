@@ -104,7 +104,7 @@ header {
 }
 
 .content-wrapper {
-  height: auto;
+  height: 580px;
   padding-bottom: 80px;
   padding-left: 5%;
   padding-right: 5%;
@@ -311,7 +311,7 @@ header {
 }
 
 .content-wrapper {
-  height: auto;
+  height: 580px;
   padding-bottom: 80px;
   padding-left: 5%;
   padding-right: 5%;
@@ -424,7 +424,7 @@ footer {
   }
 
   .content-wrapper {
-    height: auto;
+    height: 990px;
   }
 
   footer {
@@ -490,7 +490,7 @@ footer {
   }
 
   .content-wrapper {
-    height: auto;
+    height: 990px;
   }
 
   footer {
