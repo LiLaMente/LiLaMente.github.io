@@ -149,6 +149,12 @@ header {
   toransition-duration:0.5s;
 }
 
+.content-icon p {
+  color: #b3aeb5;
+  font-size: 18px;
+  font-weight: bold;
+}
+
 .text-contents {
   width: 80%;
   display: inline-block;
