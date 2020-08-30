@@ -104,7 +104,7 @@ header {
 }
 
 .content-wrapper {
-  height: 580px;
+  height: auto;
   padding-bottom: 80px;
   padding-left: 5%;
   padding-right: 5%;
