@@ -85,14 +85,14 @@ header {
 }
 
 .logo {
-  height: 60px;
-  opacity: 70%;
-  margin-top: 20px;
+  height: 55px;
+  opacity: 90%;
+  margin-top: 10px;
 }
 
 .header-right {
   float: right;
-  margin-right: -25px;
+  margin-right: 10px;
 }
 
 .header-right a {
