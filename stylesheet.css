@@ -50,17 +50,20 @@ a {
   height:50px;
   background-color: #C0eb75;
   margin: 0 auto;
+  padding-right: 5px;
 }
 .photo {
   height:50px;
   background-color: #91a7ff;
   margin: 0 auto;
+  padding-right: 5px;
 }
 
 .facebook {
   height:50px;
   background-color: #3b5998;
   margin: 0 auto;
+  padding-right: 5px;
 }
 
 .btn:hover {
@@ -72,7 +75,7 @@ a {
 }
 
 header {
-  height: 55px;
+  height: 60px;
   width: 100%;
   background-color: rgba(34,49,52,0.9);
   position :fixed;
