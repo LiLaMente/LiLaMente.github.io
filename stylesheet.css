@@ -135,7 +135,7 @@ header {
   ransition-duration:0.5s;
 }
 
-.content-icon a:hover img{
+.content-icon :hover img{
   opacity:0.7;
   toransition-duration:0.5s;
 }
