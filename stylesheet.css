@@ -39,7 +39,7 @@ a {
 
 .btn {
   margin:0;
-  padding: 5px 24px;
+  padding: 0 10px;
   color: white;
   display: inline-block;
   opacity: 0.9;
@@ -47,18 +47,18 @@ a {
   text-align: center;
 }
 .home {
-  height:50px;
+  height:30px;
   background-color: #C0eb75;
   margin: 0 10px;
 }
 .photo {
-  height:50px;
+  height:30px;
   background-color: #91a7ff;
   margin: 0 10px;
 }
 
 .facebook {
-  height:50px;
+  height:30px;
   background-color: #3b5998;
   margin: 0 10px;
 }
@@ -72,7 +72,7 @@ a {
 }
 
 header {
-  height: 65px;
+  height: 55px;
   width: 100%;
   background-color: rgba(34,49,52,0.9);
   position :fixed;
@@ -241,29 +241,33 @@ a {
 }
 
 .btn-wrapper p {
-  margin-bottom: 20px;
-}
-
-.signup {
-  background-color: #239b76;
-}
-
-.facebook {
-  background-color: #3b5998;
-  margin-right: 10px;
-}
-
-.twitter {
-  background-color: #55acee;
+  margin-bottom: 10px;
 }
 
 .btn {
-  padding: 8px 24px;
+  margin:0;
+  padding: 0 10px;
   color: white;
   display: inline-block;
-  opacity: 0.8;
+  opacity: 0.9;
   border-radius: 4px;
   text-align: center;
+}
+.home {
+  height:30px;
+  background-color: #C0eb75;
+  margin: 0 10px;
+}
+.photo {
+  height:30px;
+  background-color: #91a7ff;
+  margin: 0 10px;
+}
+
+.facebook {
+  height:30px;
+  background-color: #3b5998;
+  margin: 0 10px;
 }
 
 .btn:hover {
@@ -455,7 +459,15 @@ footer {
     width: 100%;
   }
 
-  .twitter {
+  .home {
+    margin-top: 10px;
+  }
+
+  .facebook {
+    margin-top: 10px;
+  }
+
+  .photo {
     margin-top: 10px;
   }
 
