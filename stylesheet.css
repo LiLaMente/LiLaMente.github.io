@@ -85,7 +85,8 @@ header {
 }
 
 .logo {
-  height: 65px;
+  height: 55px;
+  opacity: 60%;
   margin-top: 20px;
 }
 
