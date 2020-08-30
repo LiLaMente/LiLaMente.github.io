@@ -137,6 +137,7 @@ header {
   position: relative;
   border-radius: 10px;
   ransition-duration:0.5s;
+  text-align: center;
 }
 
 .content-icon:hover img {
