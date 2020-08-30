@@ -85,14 +85,9 @@ header {
 }
 
 .logo {
-  height: 50px;
   width: 124px;
-  opacity: 50%;
+  opacity: 70%;
   margin-top: 10px;
-}
-
-.header-left {
-  float: left;
 }
 
 .header-right {
