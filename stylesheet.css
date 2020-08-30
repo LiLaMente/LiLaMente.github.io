@@ -536,9 +536,3 @@ footer {
   .content {
     width: 100%;
   }
-
-  .flex{
-    padding: 2.5% 0;
-    display: flex;
-    flex-direction: column;
-  }
