@@ -40,7 +40,7 @@ a {
 .btn {
   margin:-5px auto;
   /*padding: 0 5px;*/
-  color: black;
+  color: white;
   display: inline-block;
   opacity: 0.9;
   border-radius: 0 0 4px 4px;
@@ -96,14 +96,14 @@ header {
 .header-right a {
   line-height: 44px;
   padding-top:5px 5px;
-  color: black;
+  color: white;
   display: block;
   float: left;
   transition: all 0.5s;
 }
 
 .header-right a:hover {
-  color: black;
+  color: white;
   background-color: rgba(255,255,255,0.3);
 }
 
@@ -252,7 +252,7 @@ a {
 .btn {
   margin:0;
   padding: 0 10px;
-  color: black;
+  color: white;
   display: inline-block;
   opacity: 0.9;
   border-radius: 4px;
@@ -260,18 +260,18 @@ a {
 }
 .home {
   height:30px;
-  background-color: #C0eb75;
+  background-color: #000000;
   margin: 0 10px;
 }
 .photo {
   height:30px;
-  background-color: #91a7ff;
+  background-color: #000000;
   margin: 0 10px;
 }
 
 .facebook {
   height:30px;
-  background-color: #3b5998;
+  background-color: #000000;
   margin: 0 10px;
 }
 
@@ -316,7 +316,7 @@ header {
 }
 
 .header-right a:hover {
-  color: black;
+  color: white;
   background-color: rgba(255,255,255,0.3);
 }
 
