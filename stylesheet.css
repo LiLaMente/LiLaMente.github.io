@@ -39,7 +39,7 @@ a {
 
 .btn {
   margin:0;
-  padding: 0 2px;
+  padding: 0 5px;
   color: white;
   display: inline-block;
   opacity: 0.9;
@@ -49,21 +49,21 @@ a {
 .home {
   height:44px;
   background-color: #C0eb75;
-  margin: 0 5px;
-  padding: 5px 3px;
+  margin: 0 3px;
+  padding: 3px 3px;
 }
 .photo {
   height:44px;
   background-color: #91a7ff;
-  margin: 0 5px;
-  padding: 5px 3px;
+  margin: 0 3px;
+  padding: 3px 3px;
 }
 
 .facebook {
   height:44px;
   background-color: #3b5998;
-  margin: 0 5px;
-  padding: 5px 3px;
+  margin: 0 3px;
+  padding: 3px 3px;
 }
 
 .btn:hover {
