@@ -50,20 +50,23 @@ a {
   height:44px;
   background-color: #C0eb75;
   margin: 0 5px;
+  padding-top: 3px;
   padding-right: 3px;
 }
 .photo {
   height:44px;
   background-color: #91a7ff;
   margin: 0 5px;
-  padding-right: 5px;
+  padding-top: 3px;
+  padding-right: 3px;
 }
 
 .facebook {
   height:44px;
   background-color: #3b5998;
   margin: 0 5px;
-  padding-right: 5px;
+  padding-top: 3px;
+  padding-right: 3px;
 }
 
 .btn:hover {
@@ -94,7 +97,7 @@ header {
 }
 
 .header-right a {
-  line-height: 30px;
+  line-height: 35px;
   padding: 0 25px;
   color: white;
   display: block;
