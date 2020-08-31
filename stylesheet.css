@@ -50,20 +50,20 @@ a {
   height:40px;
   background-color: #C0eb75;
   margin: 0 3px;
-  padding: 3px 5px;
+  padding: 3px 10px;
 }
 .photo {
   height:40px;
   background-color: #91a7ff;
   margin: 0 3px;
-  padding: 3px 5px;
+  padding: 3px 10px;
 }
 
 .facebook {
   height:40px;
   background-color: #3b5998;
   margin: 0 3px;
-  padding: 3px 5px;
+  padding: 3px 10px;
 }
 
 .btn:hover {
