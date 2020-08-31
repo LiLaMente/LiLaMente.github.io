@@ -48,20 +48,20 @@ a {
 }
 .home {
   height:40px;
-  background-color: #BA9BC4; /*#C0eb75*/
+  background-color: #CCCCFF; /*#C0eb75*/
   margin: 0 3px;
   padding: 3px 15px;
 }
 .photo {
   height:40px;
-  background-color: #BA9BC4; /*#91a7ff*/
+  background-color: #CCCCFF; /*#91a7ff*/
   margin: 0 3px;
   padding: 3px 15px;
 }
 
 .facebook {
   height:40px;
-  background-color: #BA9BC4; /*#3b5998*/
+  background-color: #CCCCFF; /*#3b5998*/
   margin: 0 3px;
   padding: 3px 15px;
 }
