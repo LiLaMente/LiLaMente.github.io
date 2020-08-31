@@ -95,7 +95,7 @@ header {
 
 .header-right a {
   line-height: 44px;
-  padding-right: 25px;
+  padding: 5px 25px;
   color: white;
   display: block;
   float: left;
