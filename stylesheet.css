@@ -84,8 +84,7 @@ header {
 }
 
 .logo {
-  width: 100%;
-  /* height: 55px; logo2の時は、これ*/
+  height: 55px;
   margin-top: 5px;
 }
 
