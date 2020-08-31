@@ -40,7 +40,7 @@ a {
 .btn {
   margin:-5px auto;
   /*padding: 0 5px;*/
-  color: white;
+  color: #000;
   display: inline-block;
   opacity: 0.9;
   border-radius: 0 0 4px 4px;
@@ -48,20 +48,20 @@ a {
 }
 .home {
   height:42px;
-  background-color: #3b5998; /*#C0eb75*/
+  background-color: #f7f7f7; /*#C0eb75*/
   margin: 0 1px;
   padding: 0 15px;
 }
 .photo {
   height:42px;
-  background-color: #3b5998; /*#91a7ff*/
+  background-color: #f7f7f7; /*#91a7ff*/
   margin: 0 1px;
   padding: 0 15px;
 }
 
 .facebook {
   height:42px;
-  background-color: #3b5998; /*#3b5998*/
+  background-color: #f7f7f7; /*#3b5998*/
   margin: 0 1px;
   padding: 0 15px;
 }
