@@ -40,7 +40,7 @@ a {
 .btn {
   margin:-5px auto;
   /*padding: 0 5px;*/
-  color: #000;
+  color: black;
   display: inline-block;
   opacity: 0.9;
   border-radius: 0 0 4px 4px;
