@@ -39,7 +39,7 @@ a {
 
 .btn {
   margin:0;
-  padding: 2px 10px;
+  padding: 1px 10px;
   color: white;
   display: inline-block;
   opacity: 0.9;
@@ -47,20 +47,20 @@ a {
   text-align: center;
 }
 .home {
-  height:50px;
+  height:42px;
   background-color: #C0eb75;
   margin: 0 5px;
-  padding-right: 5px;
+  padding-right: 3px;
 }
 .photo {
-  height:50px;
+  height:42px;
   background-color: #91a7ff;
   margin: 0 5px;
   padding-right: 5px;
 }
 
 .facebook {
-  height:50px;
+  height:42px;
   background-color: #3b5998;
   margin: 0 5px;
   padding-right: 5px;
@@ -75,7 +75,7 @@ a {
 }
 
 header {
-  height: 60px;
+  height: 55px;
   width: 100%;
   background-color: rgba(34,49,52,0.9);
   position :fixed;
