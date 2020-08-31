@@ -96,13 +96,14 @@ header {
 .header-right a {
   line-height: 44px;
   padding-top:5px 5px;
-  color: white;
+  color: black;
   display: block;
   float: left;
   transition: all 0.5s;
 }
 
 .header-right a:hover {
+  color: black;
   background-color: rgba(255,255,255,0.3);
 }
 
@@ -315,6 +316,7 @@ header {
 }
 
 .header-right a:hover {
+  color: black;
   background-color: rgba(255,255,255,0.3);
 }
 
