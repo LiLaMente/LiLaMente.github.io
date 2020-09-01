@@ -232,11 +232,13 @@ footer {
     font-size: 14px;
   }
 
+  .clear {
+    clear:left;
+  }
   .content-wrapper {
-    height: 100%;
+    height:auto;
   }
 
   .content {
     width: 100%;
-    margin-bottom: 50px;
   }
