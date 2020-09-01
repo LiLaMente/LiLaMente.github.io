@@ -165,8 +165,8 @@ header {
   text-align: center;
 }
 
-footer img {
-  width: 125px;
+.clear {
+  clear: left;
 }
 
 footer p {
@@ -181,9 +181,7 @@ footer {
   text-align: center;
 }
 
-.clear {
-  clear: left;
-}
+
 
 @media all and (max-width: 1000px) {
   .content {
