@@ -42,19 +42,20 @@ a {
   color: white;
   display: inline-block;
   background-color: rgba(34,49,52,0.9);
-  border-radius: 0 0 4px 4px;
   text-align: center;
 }
 
 .home {
-  background-color: #333333; /*#C0eb75*/
+  margin-right: 5px;
+  padding: 5px 10px;
+  background-color: #C0eb75; /*#333333*/
 }
 .photo {
-  background-color: #333333; /*#91a7ff*/
+  background-color: #91a7ff;
 }
 
 .facebook {
-  background-color: #333333; /*#3b5998*/
+  background-color: #3b5998;
 }
 
 .btn:hover {
