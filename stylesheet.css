@@ -236,10 +236,6 @@ footer {
     width: 100%;
   }
 
-  .home {
-    margin-top: 10px;
-  }
-
   .facebook {
     margin-top: 10px;
   }
@@ -262,9 +258,4 @@ footer {
 
   .content {
     width: 100%;
-    margin-bottom: 50px;
-  }
-
-  .content-wrapper {
-    height: 990px;
   }
