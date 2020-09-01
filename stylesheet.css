@@ -45,18 +45,21 @@ a {
   text-align: center;
 }
 
+/*
 .home {
   padding: 5px 30px;
-  background-color: #C0eb75; /*#333333*/
+  background-color: #C0eb75;
 }
+*/
+
 .photo {
   padding: 5px 30px;
-  background-color: #91a7ff;
+  background-color: #333333; /*#91a7ff*/
 }
 
 .facebook {
   padding: 5px 30px;
-  background-color: #3b5998;
+  background-color: #3b5998; /*#3b5998*/
 }
 
 .btn:hover {
@@ -147,223 +150,6 @@ header {
   width: 80%;
   display:inline-block;
   margin-top: 10px;
-  font-size: 13px;
-  color: #b3aeb5;
-}
-
-.heading h3 {
-  font-weight: normal;
-}
-
-.message-wrapper {
-  border-bottom: 1px solid #eee;
-  padding-bottom: 80px;
-  text-align: center;
-}
-
-.message {
-  padding: 15px 40px;
-  background-color: #5dca88;
-  cursor: pointer;
-  box-shadow: 0px 7px #1a7940;
-}
-
-.message:active {
-  position: relative;
-  top: 7px;
-  box-shadow: none;
-}
-
-footer img {
-  width: 125px;
-}
-
-footer p {
-  color: #b3aeb5;
-  font-size: 12px;
-}
-
-footer {
-  padding-top: 30px;
-  padding-bottom: 20px;
-  text-align: center;
-}
-
-.menu-icon {
-  color: white;
-  float: right;
-  font-size: 25px;
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  font-family: "Hiragino Kaku Gothic ProN";
-}
-
-a {
-  text-decoration: none;
-}
-
-.container {
-  width: 100%;
-  padding: 0 15px;
-  margin: 0 auto;
-}
-
-.top-wrapper {
-  padding: 180px 0 100px 0;
-  background-image: url(026.jpg);
-  background-size: cover;
-  color: white;
-  text-align: center;
-}
-
-.top-wrapper h1 {
-  opacity: 0.7;
-  font-size: 45px;
-  letter-spacing: 5px;
-}
-
-.top-wrapper p {
-  opacity: 0.7;
-  font-size: 16px;
-  margin-bottom: 40px;
-}
-
-.btn-wrapper {
-  text-align: center;
-}
-
-.btn-wrapper p {
-  margin-bottom: 10px;
-}
-
-.btn {
-  margin:0;
-  padding: 0 10px;
-  color: white;
-  display: inline-block;
-  opacity: 0.9;
-  border-radius: 4px;
-  text-align: center;
-}
-.home {
-  height:30px;
-  background-color: #000000;
-  margin: 0 10px;
-}
-.photo {
-  height:30px;
-  background-color: #000000;
-  margin: 0 10px;
-}
-
-.facebook {
-  height:30px;
-  background-color: #000000;
-  margin: 0 10px;
-}
-
-.btn:hover {
-  opacity: 1;
-}
-
-.fa {
-  margin-right: 5px;
-}
-
-header {
-  height: 65px;
-  width: 100%;
-  background-color: rgba(34,49,52,0.9);
-  position :fixed;
-  top: 0;
-  z-index: 10;
-}
-
-.logo {
-  width: 124px;
-  margin-top: 20px;
-}
-
-.header-left {
-  float: left;
-}
-
-.header-right {
-  float: right;
-  margin-right: -25px;
-}
-
-.header-right a {
-  line-height: 65px;
-  padding: 0 25px;
-  color: white;
-  display: block;
-  float: left;
-  transition: all 0.5s;
-}
-
-.header-right a:hover {
-  color: white;
-  background-color: rgba(255,255,255,0.3);
-}
-
-.content-wrapper {
-  height: 580px;
-  padding-bottom: 80px;
-  padding-left: 5%;
-  padding-right: 5%;
-  background-color: #f7f7f7;
-  text-align: center;
-}
-
-.heading {
-  padding-top: 80px;
-  padding-bottom: 50px;
-  color: #5f5d60;
-}
-
-.heading h2 {
-  font-weight: normal;
-}
-
-.content {
-  float: left;
-  width: 25%;
-}
-
-.content-icon {
-  position: relative;
-  border:1px solid #ddd;
-  overflow:hidden;
-}
-
-.content-icon img {
-  width:100%;
-  cursor: pointer;
-  transition-duration:0.3s;
-}
-
-.content-icon a:hover img {
-  opacity:0.6;
-  transition-duration:0.3s;
-}
-
-.content-icon p {
-  position: absolute;
-  top: 75%;
-  width: 100%;
-  font-weight: bold;
-  color: white;
-}
-
-.text-contents {
-  width: 75%;
-  display: inline-block;
-  margin-top: 15px;
   font-size: 13px;
   color: #b3aeb5;
 }
