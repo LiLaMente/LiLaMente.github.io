@@ -45,6 +45,11 @@ a {
   text-align: center;
 }
 
+.home {
+  padding: 15px 30px;
+  background-color: #333333; /*#91a7ff*/
+}
+
 .photo {
   padding: 15px 30px;
   background-color: #333333; /*#91a7ff*/
