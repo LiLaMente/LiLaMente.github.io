@@ -125,6 +125,7 @@ header {
   overflow:hidden;
   cursor:pointer;
   float: left;
+  height: 100%;
   width: 25%;
 }
 
@@ -162,19 +163,6 @@ header {
   border-bottom: 1px solid #eee;
   padding-bottom: 80px;
   text-align: center;
-}
-
-.message {
-  padding: 15px 40px;
-  background-color: #5dca88;
-  cursor: pointer;
-  box-shadow: 0px 7px #1a7940;
-}
-
-.message:active {
-  position: relative;
-  top: 7px;
-  box-shadow: none;
 }
 
 footer img {
@@ -245,4 +233,8 @@ footer {
   .content {
     width: 100%;
     margin-bottom: 50px;
+  }
+
+  footer {
+
   }
