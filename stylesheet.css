@@ -47,18 +47,18 @@ a {
 
 /*
 .home {
-  padding: 5px 30px;
+  padding: 20px 30px;
   background-color: #C0eb75;
 }
 */
 
 .photo {
-  padding: 5px 30px;
+  padding: 20px 30px;
   background-color: #333333; /*#91a7ff*/
 }
 
 .facebook {
-  padding: 5px 30px;
+  padding: 20px 30px;
   background-color: #3b5998; /*#3b5998*/
 }
 
@@ -182,13 +182,14 @@ footer img {
 }
 
 footer p {
-  color: #b3aeb5;
+  color: #ffffff; /*#b3aeb5*/
   font-size: 12px;
 }
 
 footer {
   padding-top: 30px;
   padding-bottom: 20px;
+  background-color: #ffffff;
   text-align: center;
 }
 
