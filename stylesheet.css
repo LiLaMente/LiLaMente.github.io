@@ -51,10 +51,14 @@ a {
   background-color: #C0eb75; /*#333333*/
 }
 .photo {
+  margin-right: 5px;
+  padding: 5px 10px;
   background-color: #91a7ff;
 }
 
 .facebook {
+  margin-right: 5px;
+  padding: 5px 10px;
   background-color: #3b5998;
 }
 
