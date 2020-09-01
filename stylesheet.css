@@ -229,6 +229,10 @@ footer {
     font-size: 14px;
   }
 
+  .content-wrapper {
+    height: 990px;
+  }
+
   .content {
     width: 100%;
     margin-bottom: 50px;
