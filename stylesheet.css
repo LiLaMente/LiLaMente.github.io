@@ -38,32 +38,23 @@ a {
 }
 
 .btn {
-  margin:-5px auto;
-  /*padding: 0 5px;*/
+  margin:0 auto;
   color: white;
   display: inline-block;
   background-color: rgba(34,49,52,0.9);
   border-radius: 0 0 4px 4px;
   text-align: center;
 }
+
 .home {
-  height:42px;
   background-color: #333333; /*#C0eb75*/
-  margin: 0 1px;
-  padding: 0 15px;
 }
 .photo {
-  height:42px;
   background-color: #333333; /*#91a7ff*/
-  margin: 0 1px;
-  padding: 0 15px;
 }
 
 .facebook {
-  height:42px;
   background-color: #333333; /*#3b5998*/
-  margin: 0 1px;
-  padding: 0 15px;
 }
 
 .btn:hover {
