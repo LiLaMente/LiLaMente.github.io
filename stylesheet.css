@@ -46,19 +46,16 @@ a {
 }
 
 .home {
-  margin-right: 5px;
-  padding: 5px 10px;
+  padding: 5px 20px;
   background-color: #C0eb75; /*#333333*/
 }
 .photo {
-  margin-right: 5px;
-  padding: 5px 10px;
+  padding: 5px 20px;
   background-color: #91a7ff;
 }
 
 .facebook {
-  margin-right: 5px;
-  padding: 5px 10px;
+  padding: 5px 20px;
   background-color: #3b5998;
 }
 
@@ -87,7 +84,6 @@ header {
 
 .header-right {
   float: right;
-  margin-right: 10px;
 }
 
 .header-right a {
