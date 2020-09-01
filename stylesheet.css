@@ -154,10 +154,6 @@ header {
   color: #b3aeb5;
 }
 
-.clear {
-  clear: left;
-}
-
 .heading h3 {
   font-weight: normal;
 }
@@ -197,6 +193,10 @@ footer {
   text-align: center;
 }
 
+.clear {
+  clear: left;
+}
+
 @media all and (max-width: 1000px) {
   .content {
     width: 50%;
@@ -234,10 +234,6 @@ footer {
     margin-top: 10px;
   }
 
-  .top-wrapper {
-    text-align: left;
-  }
-
   .top-wrapper h1 {
     font-size: 24px;
   }
@@ -248,8 +244,5 @@ footer {
 
   .content {
     width: 100%;
+    margin-bottom: 50px;
   }
-
- .clear {
-   clear: left;
- }
