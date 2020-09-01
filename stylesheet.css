@@ -69,7 +69,7 @@ header {
   background-color: rgba(34,49,52,0.9);
   position :fixed;
   top: 0;
-  z-index: 3;
+  z-index: 10;
 }
 
 .logo {
@@ -92,6 +92,14 @@ header {
 .header-right a:hover {
   color: white;
   background-color: rgba(255,255,255,0.3);
+}
+
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
 }
 
 .content-wrapper {
@@ -147,6 +155,10 @@ header {
   color: #b3aeb5;
 }
 
+.clear {
+  clear: left;
+}
+
 .heading h3 {
   font-weight: normal;
 }
@@ -184,18 +196,6 @@ footer {
   padding-bottom: 20px;
   background-color: #000000;
   text-align: center;
-}
-
-.menu-icon {
-  color: white;
-  float: right;
-  font-size: 25px;
-  padding: 21px 0;
-  display: none;
-}
-
-.clear {
-  clear: left;
 }
 
 @media all and (max-width: 1000px) {
