@@ -208,11 +208,6 @@ footer {
     height: 990px;
   }
 
-  footer {
-    text-align: center;
-  }
-}
-
 @media all and (max-width: 750px) {
   .top-wrapper h1 {
     font-size: 32px;
@@ -230,10 +225,6 @@ footer {
 
   .menu-icon {
     display: block;
-  }
-
-  .top-wrapper .btn {
-    width: 100%;
   }
 
   .facebook {
@@ -259,3 +250,7 @@ footer {
   .content {
     width: 100%;
   }
+
+ .clear {
+   clear: left;
+ }
