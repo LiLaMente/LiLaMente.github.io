@@ -231,3 +231,12 @@ footer {
   .top-wrapper p {
     font-size: 14px;
   }
+
+  .content-wrapper {
+    height: 100%;
+  }
+
+  .content {
+    width: 100%;
+    margin-bottom: 50px;
+  }
