@@ -47,19 +47,19 @@ a {
 
 /*
 .home {
-  padding: 20px 30px;
+  padding: 15px 30px;
   background-color: #C0eb75;
 }
 */
 
 .photo {
-  padding: 20px 30px;
+  padding: 15px 30px;
   background-color: #333333; /*#91a7ff*/
 }
 
 .facebook {
-  padding: 20px 30px;
-  background-color: #3b5998; /*#3b5998*/
+  padding: 15px 30px;
+  background-color: #333333; /*#3b5998*/
 }
 
 .btn:hover {
@@ -189,7 +189,7 @@ footer p {
 footer {
   padding-top: 30px;
   padding-bottom: 20px;
-  background-color: #ffffff;
+  background-color: #000000;
   text-align: center;
 }
 
