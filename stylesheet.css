@@ -494,64 +494,6 @@ footer {
     width: 100%;
   }
 
-  padding: 21px 0;
-  display: none;
-}
-
 .clear {
   clear: left;
 }
-
-@media all and (max-width: 1000px) {
-  .content {
-    width: 50%;
-    margin-bottom: 50px;
-  }
-
-  .content-wrapper {
-    height: 990px;
-  }
-
-  footer {
-    text-align: right;
-  }
-}
-
-@media all and (max-width: 750px) {
-  .top-wrapper h1 {
-    font-size: 32px;
-  }
-
-  .heading h2 {
-    font-size: 20px;
-  }
-}
-
-@media all and (max-width: 670px) {
-  .header-right {
-    display: none;
-  }
-
-  .menu-icon {
-    display: block;
-  }
-
-  .top-wrapper .btn {
-    width: 100%;
-  }
-
-  .top-wrapper {
-    text-align: left;
-  }
-
-  .top-wrapper h1 {
-    font-size: 24px;
-  }
-
-  .top-wrapper p {
-    font-size: 14px;
-  }
-
-  .content {
-    width: 100%;
-  }
