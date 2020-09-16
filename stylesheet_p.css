@@ -131,7 +131,8 @@ header {
   overflow:hidden;
   cursor:pointer;
   float: left;
-  width: 100%;
+  width: 25%;
+  float:left;
 }
 
 .content-icon img {
@@ -142,7 +143,6 @@ header {
   height: 250px;
   width: 250px;
   object-fit: cover;
-  float:left;
 }
 
 .content-icon:hover img {
