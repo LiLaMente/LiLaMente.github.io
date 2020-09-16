@@ -139,13 +139,9 @@ header {
   border-radius: 10px;
   ransition-duration:0.5s;
   text-align: center;
-  display: inline-block;
   height: 250px;
   width: 250px;
   object-fit: cover;
-  margin-right: 15px;
-  margin-bottom: 15px;
-
 }
 
 .content-icon:hover img {
