@@ -96,6 +96,15 @@ header {
   height: auto;
 }
 
+.content-wrapper2 {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #ffffff;
+  text-align: center;
+  height: auto;
+}
+
 .heading {
   padding-top: 80px;
   padding-bottom: 50px;
