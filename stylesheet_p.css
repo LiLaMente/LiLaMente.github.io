@@ -112,7 +112,7 @@ header {
   overflow:hidden;
   cursor:pointer;
   float: left;
-  height: 315px;
+  height: 100%;
   width: 25%;
   object-fit: cover;
 }
@@ -122,6 +122,9 @@ header {
   border-radius: 10px;
   ransition-duration:0.5s;
   text-align: center;
+  height: 315px;
+  width: 25%;
+  object-fit: cover;  
 }
 
 .content-icon:hover img {
