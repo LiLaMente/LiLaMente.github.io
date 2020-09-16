@@ -112,7 +112,6 @@ header {
   overflow:hidden;
   cursor:pointer;
   float: left;
-  height: 100%;
   width: 25%;
   object-fit: cover;
 }
@@ -123,8 +122,8 @@ header {
   ransition-duration:0.5s;
   text-align: center;
   height: 315px;
-  width: 25%;
-  object-fit: cover;  
+  width: 315px;
+  object-fit: cover;
 }
 
 .content-icon:hover img {
