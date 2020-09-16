@@ -112,7 +112,8 @@ header {
   overflow:hidden;
   cursor:pointer;
   float: left;
-  width: 50%;
+  height: 100%;
+  width: 25%;
 }
 
 .content-icon img {
