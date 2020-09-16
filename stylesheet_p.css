@@ -131,7 +131,7 @@ header {
   overflow:hidden;
   cursor:pointer;
   float: left;
-  height: 100%;
+  height: 200px;
 }
 
 .content-icon img {
