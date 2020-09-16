@@ -131,6 +131,7 @@ header {
   overflow:hidden;
   cursor:pointer;
   float: left;
+  width: 100%;
 }
 
 .content-icon img {
@@ -142,6 +143,8 @@ header {
   height: 150px;
   width: 150px;
   object-fit: cover;
+  margin-right: 15px;
+  margin-bottom: 15px;
 
 }
 
