@@ -112,7 +112,6 @@ header {
   overflow:hidden;
   cursor:pointer;
   float: left;
-  width: 25%;
   object-fit: cover;
 }
 
