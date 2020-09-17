@@ -158,13 +158,12 @@ header {
 .text-contents {
   width: 75%;
   display:inline-block;
-  margin-top: 10px;
+  margin-top: 5px;
   font-size: 13px;
   color: #b3aeb5;
 }
 
 .content-photo img {
-
   border-radius: 10px;
   ransition-duration:0.5s;
   text-align: center;
