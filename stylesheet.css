@@ -55,6 +55,11 @@ a {
   background-color: #333333; /*#91a7ff*/
 }
 
+.movie {
+  padding: 15px 30px;
+  background-color: #333333; /*#3b5998*/
+}
+
 .facebook {
   padding: 15px 30px;
   background-color: #333333; /*#3b5998*/
