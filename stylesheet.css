@@ -206,7 +206,7 @@ footer {
 
 @media all and (max-width: 1000px) {
   .content {
-    width: 40%;
+    width: 50%;
     margin-bottom: 50px;
   }
 
