@@ -234,17 +234,6 @@ footer {
     display: none;
   }
 */
-  .home {
-    margin-top: 10px;
-  }
-
-  .photo {
-    margin-top: 10px;
-  }
-
-  .movie {
-    margin-top: 10px;
-  }
 
   .top-wrapper h1 {
     font-size: 24px;
@@ -257,6 +246,7 @@ footer {
   .clear {
     clear:left;
   }
+
   .content-wrapper {
     height: 990px;
   }
