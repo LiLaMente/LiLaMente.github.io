@@ -234,6 +234,25 @@ footer {
     display: none;
   }
 */
+.home {
+  padding: 5px 10px;
+  background-color: #333333; /*#91a7ff*/
+}
+
+.photo {
+  padding: 5px 10px;
+  background-color: #333333; /*#91a7ff*/
+}
+
+.movie {
+  padding: 5px 10px;
+  background-color: #333333; /*#3b5998*/
+}
+
+.facebook {
+  padding: 5px 10px;
+  background-color: #333333; /*#3b5998*/
+}
 
   .top-wrapper h1 {
     font-size: 24px;
