@@ -214,6 +214,8 @@ footer {
     height: 990px;
   }
 
+}
+
 @media all and (max-width: 750px) {
   .top-wrapper h1 {
     font-size: 32px;
@@ -222,33 +224,17 @@ footer {
   .heading h2 {
     font-size: 20px;
   }
-}
 
-.content-wrapper {
-  height: 990px;
+  .content-wrapper {
+  height: auto;
+  }
+
 }
 
 @media all and (max-width: 670px) {
-  /*
   .header-right {
     display: none;
   }
-*/
- .home {
-  margin: 0 auto;
-}
-
- .photo {
-  margin: 0 auto;
-}
-
- .movie {
-  margin: 0 auto;
-}
-
- .facebook {
-  margin: 0 auto;
-}
 
  .top-wrapper h1 {
     font-size: 24px;
@@ -263,9 +249,11 @@ footer {
   }
 
   .content-wrapper {
-    height: 990px;
+    height: auto;
   }
 
   .content {
     width: 100%;
   }
+
+}
