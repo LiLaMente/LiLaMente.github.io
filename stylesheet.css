@@ -235,23 +235,19 @@ footer {
   }
 */
 .home {
-  padding: 5px 10px;
-  background-color: #333333; /*#91a7ff*/
+  margin: auto;
 }
 
 .photo {
-  padding: 5px 10px;
-  background-color: #333333; /*#91a7ff*/
+  margin: auto;
 }
 
 .movie {
-  padding: 5px 10px;
-  background-color: #333333; /*#3b5998*/
+  margin: auto;
 }
 
 .facebook {
-  padding: 5px 10px;
-  background-color: #333333; /*#3b5998*/
+  margin: auto;
 }
 
   .top-wrapper h1 {
