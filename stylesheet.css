@@ -224,6 +224,10 @@ footer {
   }
 }
 
+.content-wrapper {
+  height: 990px;
+}
+
 @media all and (max-width: 670px) {
   /*
   .header-right {
@@ -254,7 +258,7 @@ footer {
     clear:left;
   }
   .content-wrapper {
-    height:auto;
+    height: 990px;
   }
 
   .content {
