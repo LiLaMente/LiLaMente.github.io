@@ -234,23 +234,23 @@ footer {
     display: none;
   }
 */
-.home {
-  margin: auto;
+ .home {
+  margin: 0 auto;
 }
 
-.photo {
-  margin: auto;
+ .photo {
+  margin: 0 auto;
 }
 
-.movie {
-  margin: auto;
+ .movie {
+  margin: 0 auto;
 }
 
-.facebook {
-  margin: auto;
+ .facebook {
+  margin: 0 auto;
 }
 
-  .top-wrapper h1 {
+ .top-wrapper h1 {
     font-size: 24px;
   }
 
