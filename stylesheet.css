@@ -225,19 +225,20 @@ footer {
 }
 
 @media all and (max-width: 670px) {
+  /*
   .header-right {
     display: none;
   }
-
-  .menu-trigger {
-    display: block;
-  }
-
-  .facebook {
+*/
+  .home {
     margin-top: 10px;
   }
 
   .photo {
+    margin-top: 10px;
+  }
+
+  .movie {
     margin-top: 10px;
   }
 
