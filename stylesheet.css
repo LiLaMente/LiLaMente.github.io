@@ -206,12 +206,12 @@ footer {
 
 @media all and (max-width: 1000px) {
   .content {
-    width: 50%;
+    width: 40%;
     margin-bottom: 50px;
   }
 
   .content-wrapper {
-    height: 1240px;
+    height: auto;
   }
 
 }
