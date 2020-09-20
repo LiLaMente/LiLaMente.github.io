@@ -42,7 +42,7 @@ a {
   margin:0 auto;
   color: white;
   display: inline-block;
-  background-color: rgba(34,49,52,0.9);
+  /*background-color: rgba(34,49,52,0.9);*/
   padding: 10px 10px;
   text-align: center;
 }
@@ -247,8 +247,8 @@ footer {
 @media all and (max-width: 670px) {
   nav ul {
   	display: flex;
-  	flex-flow: column;
-  	margin: -10px;
+  	flex-flow: row;
+  	margin: -3px;
   	list-style-type: none;
   }
 
