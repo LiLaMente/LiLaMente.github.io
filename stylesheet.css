@@ -73,6 +73,14 @@ a {
   margin-right: 5px;
 }
 
+nav ul {
+	display: flex;
+	flex-flow: column;
+	margin: 0;
+	padding: 6px;
+	list-style-type: none;
+}
+
 header {
   height: 50px;
   width: 100%;
