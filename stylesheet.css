@@ -180,7 +180,7 @@ header {
 
 .content-movie {
   text-align: center;
-  height: auto;
+  height: 315px;
   object-fit: cover;
 }
 
