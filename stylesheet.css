@@ -74,7 +74,7 @@ a {
 }
 
 nav {
-	background-color: #222222;
+  background-color: rgba(34,49,52,0.9);
 	color: white;
 }
 nav ul {
@@ -93,12 +93,13 @@ nav a {
 	text-decoration: none;
 }
 nav li a:hover {
-	background-color: #8cae47;
+  opacity: 1;
+  background-color: #333333;
 }
 
 nav ul {
 	display: flex;
-	flex-flow: column;
+	flex-flow: row;
 	margin: 0;
 	padding: 6px;
 	list-style-type: none;
