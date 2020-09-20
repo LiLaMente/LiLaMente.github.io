@@ -248,7 +248,7 @@ footer {
   nav ul {
   	display: flex;
   	flex-flow: row;
-  	margin: -3px auto;
+  	margin: auto;
   	list-style-type: none;
   }
 
