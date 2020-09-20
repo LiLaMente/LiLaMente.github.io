@@ -141,16 +141,6 @@ header {
   width: 25%;
 }
 
-.content-m {
-  margin:0 auto;
-  padding-bottom: 10px;
-  overflow:hidden;
-  cursor:pointer;
-  float: left;
-  height: 100%;
-  width: 75%;
-}
-
 .content-icon img {
   position: relative;
   border-radius: 10px;
@@ -189,6 +179,7 @@ header {
 }
 
 .content-movie {
+  height: auto;
   object-fit: cover;
 }
 
