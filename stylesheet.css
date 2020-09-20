@@ -181,19 +181,9 @@ nav li a:hover {
   object-fit: cover;
 }
 
-.content-m {
-  margin:0 auto;
-  padding-bottom: 10px;
-  overflow:hidden;
-  cursor:pointer;
-  float: left;
-  height: auto;
-  width: 100%;
-}
-
 .content-movie {
   text-align: center;
-  width: 100%;
+  width: 50%;
   object-fit: cover;
 }
 
