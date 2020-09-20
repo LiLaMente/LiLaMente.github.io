@@ -173,7 +173,7 @@ header {
   border-radius: 10px;
   ransition-duration:0.5s;
   text-align: center;
-  height: 250px;
+  width:100%;
   object-fit: cover;
 }
 
