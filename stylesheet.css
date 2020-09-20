@@ -188,7 +188,7 @@ nav li a:hover {
   cursor:pointer;
   float: left;
   height: auto;
-  width: 30%;
+  width: 100%;
 }
 
 .content-movie {
