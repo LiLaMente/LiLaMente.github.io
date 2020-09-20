@@ -189,7 +189,6 @@ header {
 }
 
 .content-movie {
-  height: 315px;
   object-fit: cover;
 }
 
