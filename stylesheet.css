@@ -179,7 +179,8 @@ header {
 }
 
 .content-movie {
-  height: auto;
+  text-align: center;
+  height: 315px;
   object-fit: cover;
 }
 
