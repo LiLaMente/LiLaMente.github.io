@@ -92,20 +92,6 @@ header {
   float: right;
 }
 
-.header-right a {
-  color: white;
-  display: block;
-  float: left;
-  transition: all 0.5s;
-}
-
-.header-right a:hover {
-  color: white;
-  background-color: rgba(255,255,255,0.3);
-}
-
-
-
 nav {
   background-color: rgba(34,49,52,0.9);
 	color: white;
@@ -120,11 +106,14 @@ nav ul {
 nav a {
 	display: block;
 	color: white;
+  float: left;
+  transition: all 0.5s;
 	text-decoration: none;
 }
 nav li a:hover {
   opacity: 1;
-  background-color: #333333;
+  color: white;
+  background-color: rgba(255,255,255,0.3);
 }
 
 nav li.hamburger {
@@ -230,10 +219,6 @@ footer {
 }
 
 @media all and (max-width: 1000px) {
-  nav li.hamburger {
-    display: block;
-  }
-
   .content {
     width: 50%;
     margin-bottom: 50px;
@@ -246,10 +231,6 @@ footer {
 }
 
 @media all and (max-width: 750px) {
-  nav li.hamburger {
-    display: block;
-  }
-
   .top-wrapper h1 {
     font-size: 32px;
   }
@@ -265,11 +246,6 @@ footer {
 }
 
 @media all and (max-width: 670px) {
-
-  nav li.hamburger {
-    align-self: flex-end;
-  }
-
 
  .top-wrapper h1 {
     font-size: 24px;
