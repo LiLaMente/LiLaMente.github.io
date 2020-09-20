@@ -145,15 +145,6 @@ nav li a:hover {
   width: 25%;
 }
 
-.content-m {
-  margin:0 auto;
-  padding-bottom: 10px;
-  overflow:hidden;
-  cursor:pointer;
-  float: left;
-  height: auto;
-  width: 50%;
-}
 .content-icon img {
   position: relative;
   border-radius: 10px;
