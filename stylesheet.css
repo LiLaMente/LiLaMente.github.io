@@ -42,28 +42,26 @@ a {
   color: white;
   display: inline-block;
   background-color: rgba(34,49,52,0.9);
+  padding: 10px 30px;
   text-align: center;
 }
-
+/*
 .home {
   padding: 10px 30px;
-  background-color: #333333;
 }
 
 .photo {
   padding: 10px 30px;
-  background-color: #333333;
 }
 
 .movie {
   padding: 10px 30px;
-  background-color: #333333;
 }
 
 .facebook {
   padding: 10px 30px;
-  background-color: #333333; /*#3b5998*/
 }
+*/
 
 .btn:hover {
   opacity: 1;
