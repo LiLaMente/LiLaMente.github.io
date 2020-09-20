@@ -43,10 +43,10 @@ a {
   color: white;
   display: inline-block;
   background-color: rgba(34,49,52,0.9);
-  padding: 10px 20px;
+  padding: 10px 10px;
   text-align: center;
 }
-/*
+
 .home {
   padding: 10px 30px;
 }
@@ -67,7 +67,7 @@ a {
 .btn:hover {
   opacity: 1;
 }
-*/
+
 .fa {
   margin-right: 5px;
 }
