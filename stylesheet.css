@@ -239,7 +239,7 @@ footer {
 }
 
 @media all and (max-width: 1000px) {
-  .nav ul {
+ nav ul .hamburger {
   	display: none;
   }
 
