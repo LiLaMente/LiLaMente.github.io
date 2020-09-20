@@ -181,6 +181,15 @@ nav li a:hover {
   object-fit: cover;
 }
 
+.content-movie {
+  border-radius: 10px;
+  ransition-duration:0.5s;
+  text-align: center;
+  height: 500px;
+  width: auto;
+  object-fit: cover;
+}
+
 .heading h3 {
   font-weight: normal;
 }
