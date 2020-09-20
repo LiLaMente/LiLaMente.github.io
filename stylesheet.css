@@ -86,8 +86,6 @@ nav ul {
 
 nav a {
 	display: block;
-	border-radius: 4px;
-	padding: 12px 24px;
 	color: white;
 	text-decoration: none;
 }
