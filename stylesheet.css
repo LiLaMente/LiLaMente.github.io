@@ -175,7 +175,7 @@ nav li a:hover {
 }
 
 .text-contents {
-  width: 50%;
+  width: 65%;
   display:inline-block;
   margin-top: auto;
   font-size: 13px;
@@ -188,12 +188,6 @@ nav li a:hover {
   text-align: center;
   height: 250px;
   width: 250px;
-  object-fit: cover;
-}
-
-.content-movie {
-  text-align: center;
-  width: 33%;
   object-fit: cover;
 }
 
