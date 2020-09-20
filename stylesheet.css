@@ -62,12 +62,12 @@ a {
 .facebook {
   padding: 10px 30px;
 }
-*/
+
 
 .btn:hover {
   opacity: 1;
 }
-
+*/
 .fa {
   margin-right: 5px;
 }
@@ -241,7 +241,6 @@ footer {
 }
 
 @media all and (max-width: 670px) {
-
  .top-wrapper h1 {
     font-size: 24px;
   }
