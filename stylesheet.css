@@ -141,6 +141,16 @@ header {
   width: 25%;
 }
 
+.content-m {
+  margin:0 auto;
+  padding-bottom: 10px;
+  overflow:hidden;
+  cursor:pointer;
+  float: left;
+  height: 100%;
+  width: 50%;
+}
+
 .content-icon img {
   position: relative;
   border-radius: 10px;
@@ -175,6 +185,11 @@ header {
   text-align: center;
   height: 250px;
   width: 250px;
+  object-fit: cover;
+}
+
+.content-movie {
+  height: 315px;
   object-fit: cover;
 }
 
