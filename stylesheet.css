@@ -184,7 +184,7 @@ nav li a:hover {
 
 .content-movie {
   text-align: center;
-  height: 315px;
+  height: auto;
   object-fit: cover;
 }
 
