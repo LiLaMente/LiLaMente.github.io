@@ -84,9 +84,7 @@ nav ul {
 	padding: 6px;
 	list-style-type: none;
 }
-nav li.login {
-  margin-left: auto;
-}
+
 nav a {
 	display: block;
 	border-radius: 4px;
@@ -244,6 +242,10 @@ footer {
 }
 
 @media all and (max-width: 1000px) {
+  .nav ul {
+  	display: none;
+  }
+
   .content {
     width: 50%;
     margin-bottom: 50px;
@@ -256,6 +258,10 @@ footer {
 }
 
 @media all and (max-width: 750px) {
+  .nav ul {
+  	display: none;
+  }
+
   .top-wrapper h1 {
     font-size: 32px;
   }
@@ -271,6 +277,7 @@ footer {
 }
 
 @media all and (max-width: 670px) {
+
   .header-right {
     display: none;
   }
