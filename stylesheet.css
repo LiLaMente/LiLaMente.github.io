@@ -43,24 +43,24 @@ a {
   color: white;
   display: inline-block;
   background-color: rgba(34,49,52,0.9);
-  padding: 8px 8px;
+  padding: 10px;
   text-align: center;
 }
 
 .home {
-  padding: 10px 30px;
+  padding: 10px 20px;
 }
 
 .photo {
-  padding: 10px 30px;
+  padding: 10px 20px;
 }
 
 .movie {
-  padding: 10px 30px;
+  padding: 10px 20px;
 }
 
 .facebook {
-  padding: 10px 30px;
+  padding: 10px 20px;
 }
 
 
