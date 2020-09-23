@@ -73,7 +73,7 @@ a {
 }
 
 header {
-  height: 48px;
+  height: 45px;
   width: 100%;
   /*background-color: rgba(34,49,52,0.9);*/
   background-color:#000000;
@@ -96,6 +96,7 @@ nav {
   background-color: rgba(34,49,52,0.9);
 	color: white;
 }
+
 nav ul {
 	display: flex;
 	flex-flow: row;
@@ -110,6 +111,7 @@ nav a {
   transition: all 0.5s;
 	text-decoration: none;
 }
+
 nav li a:hover {
   opacity: 1;
   color: white;
