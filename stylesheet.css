@@ -43,7 +43,7 @@ a {
   color: white;
   display: inline-block;
   background-color: rgba(34,49,52,0.9);
-  padding: 10px 10px;
+  padding: 8px 8px;
   text-align: center;
 }
 
@@ -73,7 +73,7 @@ a {
 }
 
 header {
-  height: 45px;
+  height: 48px;
   width: 100%;
   /*background-color: rgba(34,49,52,0.9);*/
   background-color:#000000;
@@ -83,7 +83,7 @@ header {
 }
 
 .logo {
-  height: 40px;
+  height: 45px;
   margin-top: 5px;
   z-index: 10;
 }
