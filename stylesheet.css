@@ -47,6 +47,10 @@ a {
   text-align: center;
 }
 
+.btn:hover {
+  opacity: 1;
+}
+
 @import "_btn.scss";
 
 .home {
@@ -63,11 +67,6 @@ a {
 
 .facebook {
   color: &facebook;
-}
-
-
-.btn:hover {
-  opacity: 1;
 }
 
 .fa {
