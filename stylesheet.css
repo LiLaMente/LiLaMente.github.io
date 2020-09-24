@@ -43,26 +43,9 @@ a {
   color: white;
   display: inline-block;
   background-color: rgba(34,49,52,0.9);
-  padding: 10px;
+  padding: 10px 20px;;
   text-align: center;
 }
-
-.home {
-  padding: 10px 20px;
-}
-
-.photo {
-  padding: 10px 20px;
-}
-
-.movie {
-  padding: 10px 20px;
-}
-
-.facebook {
-  padding: 10px 20px;
-}
-
 
 .btn:hover {
   opacity: 1;
