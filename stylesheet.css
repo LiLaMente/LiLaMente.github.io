@@ -43,7 +43,7 @@ a {
   color: white;
   display: inline-block;
   background-color: rgba(34,49,52,0.5);
-  padding: 10px 20px;
+  padding: 10px 10px;
   text-align: center;
 }
 
@@ -235,7 +235,7 @@ footer {
   	display: flex;
   	flex-flow: row;
   	margin 0;
-    padding: 5px 10px;
+    padding: 5px 5x;
   	list-style-type: none;
   }
 
