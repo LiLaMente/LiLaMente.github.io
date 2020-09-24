@@ -37,42 +37,6 @@ a {
   margin-bottom: 40px;
 }
 
-
-.btn {
-  margin:0 auto;
-  color: white;
-  display: inline-block;
-  /*background-color: rgba(34,49,52,0.9);*/
-  padding: 10px 20px;
-  text-align: center;
-}
-
-.btn:hover {
-  opacity: 1;
-}
-
-@import "_btn.scss";
-
-.btn home {
-  background-color: &home;
-}
-
-.btn photo {
-  background-color: &photo;
-}
-
-.btn movie {
-  background-color: &movie;
-}
-
-.btn facebook {
-  background-color: &facebook;
-}
-
-.fa {
-  margin-right: 5px;
-}
-
 header {
   height: 55px;
   width: 100%;
@@ -91,6 +55,21 @@ header {
 .header-right {
   float: right;
 }
+
+
+/*.btn {
+  margin:0 auto;
+  color: white;
+  display: inline-block;
+  background-color: rgba(34,49,52,0.9);
+  padding: 10px 20px;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+*/
 
 nav {
   background-color: rgba(34,49,52,0.9);
@@ -115,7 +94,30 @@ nav a {
 nav li a:hover {
   opacity: 1;
   color: white;
-  background-color: rgba(255,255,255,0.3);
+  background-color: rgba(&color,0.3);
+}
+
+
+@import "_btn.scss";
+
+.home {
+  background-color: &home;
+}
+
+.photo {
+  background-color: &photo;
+}
+
+.movie {
+  background-color: &movie;
+}
+
+.facebook {
+  background-color: &facebook;
+}
+
+.fa {
+  margin-right: 5px;
 }
 
 .content-wrapper {
