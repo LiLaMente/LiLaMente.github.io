@@ -234,7 +234,7 @@ footer {
   	display: flex;
   	flex-flow: row;
   	margin 0;
-    padding: 0;
+    padding: 5px 10px;
   	list-style-type: none;
   }
 
