@@ -53,19 +53,19 @@ a {
 
 @import "_btn.scss";
 
-.home {
+.btn home {
   background-color: &home;
 }
 
-.photo {
+.btn photo {
   background-color: &photo;
 }
 
-.movie {
+.btn movie {
   background-color: &movie;
 }
 
-.facebook {
+.btn facebook {
   background-color: &facebook;
 }
 
