@@ -42,7 +42,7 @@ a {
   margin:0 auto;
   color: white;
   display: inline-block;
-  background-color: rgba(34,49,52,0.9);
+  /*background-color: rgba(34,49,52,0.9);*/
   padding: 10px 20px;
   text-align: center;
 }
@@ -54,19 +54,19 @@ a {
 @import "_btn.scss";
 
 .home {
-  color: &home;
+  background-color: &home;
 }
 
 .photo {
-  color: &photo;
+  background-color: &photo;
 }
 
 .movie {
-  color: &movie;
+  background-color: &movie;
 }
 
 .facebook {
-  color: &facebook;
+  background-color: &facebook;
 }
 
 .fa {
