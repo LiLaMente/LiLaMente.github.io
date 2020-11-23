@@ -14,100 +14,57 @@ a {
   text-decoration: none;
 }
 
+.container {
+  margin: 0 auto;
+}
+
 header {
   height: 90px;
   width: 100%;
   position :fixed;
+  background-color: #FFF;
   top: 0;
   z-index: 10;
 }
 
-.container {
+.header_nav {
+  float:left;
+}
+
+.wrap_00 {
   width: 100%;
-  padding: 0 15px;
   margin: 0 auto;
 }
 
-.header_nav {
-padding:35 25 25 35;
+.wrap_01 {
+  width:100%;
 }
 
-.wrap_1 {
-  width:80%;
-}
-.wrap_2 {
-  width:40%;
-  display: flex;
+.wrap_02 {
+  margin :120px 228px ;
   flex-direction: row;
 }
 
-.container_2a {
-   align-self:center;
+.box_a {
+width: 45%;
 }
 
-.container_2b {
-   align-self:center;
+.box_b {
+width: 35%;
+}
+
+footter {
+  width: 100%;
+  text-align: center;
 }
 
 /*　ブレイクポイント設定 　*/
 
 /*　画面サイズ：1000～750px　*/
 @media all and (max-width: 1000px) {
-  .content {
-    width: 50%;
-    margin-bottom: 50px;
-  }
-
-  .content-wrapper {
-    height: auto;
-  }
-
-}
 
  /*　画面サイズ：750～670px　*/
 @media all and (max-width: 750px) {
-  .top-wrapper h1 {
-    font-size: 32px;
-  }
-
-  .heading h2 {
-    font-size: 20px;
-  }
-
-  .content-wrapper {
-  height: auto;
-  }
-
-}
 
 /*　画面サイズ：670px以下　*/
 @media all and (max-width: 670px) {
-  nav ul {
-  	display: flex;
-  	flex-flow: row;
-  	margin 0;
-    padding: 5px 5px;
-  	list-style-type: none;
-  }
-
- .top-wrapper h1 {
-    font-size: 24px;
-  }
-
-  .top-wrapper p {
-    font-size: 14px;
-  }
-
-  .clear {
-    clear:left;
-  }
-
-  .content-wrapper {
-    height: auto;
-  }
-
-  .content {
-    width: 100%;
-  }
-
-}
