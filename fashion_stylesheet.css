@@ -22,13 +22,12 @@ header {
   height: 90px;
   width: 100%;
   position :fixed;
-  background-color: #FFF;
   top: 0;
   z-index: 10;
 }
 
 .header_nav {
-  float:left;
+  flex-direction: row;
 }
 
 .wrap_00 {
