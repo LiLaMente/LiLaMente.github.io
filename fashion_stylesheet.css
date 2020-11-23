@@ -45,7 +45,7 @@ padding:35 25 25 35;
    align-self:center;
 }
 
-/*　ブレイクポイント設定　*/
+/*　ブレイクポイント設定 　*/
 
 /*　画面サイズ：1000～750px　*/
 @media all and (max-width: 1000px) {
