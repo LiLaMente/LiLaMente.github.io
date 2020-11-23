@@ -1,6 +1,11 @@
 @charset "UTF-8";
 @import "https://fonts.googleapis.com/earlyaccess/notosansjapanese.css";
 
+h1 { font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; } h3 { font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; } p { font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } blockquote { font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } pre { font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5714px; }
+
+
+
+
 * {
   box-sizing: border-box;
 }
@@ -21,12 +26,14 @@ a {
 header {
   height: 90px;
   width: 100%;
-  position :fixed;
+  position :flex;
+  flex-direction: row;
   top: 0;
   z-index: 10;
 }
 
 .header_nav {
+  float: left;
   flex-direction: row;
 }
 
@@ -37,10 +44,12 @@ header {
 
 .wrap_01 {
   width:100%;
+  margin: 0;
 }
 
 .wrap_02 {
   margin :120px 228px ;
+  position :flex;
   flex-direction: row;
 }
 
