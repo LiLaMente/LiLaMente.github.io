@@ -14,15 +14,6 @@ body {
   width: 80px;
 }
 
-h1 {
-  font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
-  font-size: 15px;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: 700;
-  line-height: 25.5px;
-  }
-
 p {
   font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
   font-size: 14px;
@@ -49,7 +40,7 @@ p {
    font-weight: 400;
    line-height: 18.5714px;
   }
-  
+
 .container {
   max-width: 1200px;
   padding: 0 40px;
@@ -69,7 +60,7 @@ ul {
   background-color: #ffffff;
 }
 
-li {
+li.header_nav {
   display: inline;
   font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
   font-size: 14px;
@@ -78,6 +69,15 @@ li {
   font-weight: 700;
   line-height: 15.4px;
 }
+
+li.header_nav_logo {
+  font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+  font-size: 15px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 25.5px;
+  }
 
 li a {
   display: block;
