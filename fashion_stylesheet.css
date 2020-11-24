@@ -55,7 +55,7 @@ ul {
   margin: 0;
   padding: 0;
   background-color: #ffffff;
-  display: flex;
+  display: flex; /* 親要素にdisplay: flexを設定すると、子要素が横に並ぶ */
   flex-direction: row;
   justify-content: center;
 }
@@ -111,25 +111,37 @@ li a:hover {
 }
 
 .wrap_02 {
-  padding-top: 120px ;
+  padding: 120px;
   display: flex;
 }
 
 .box_a {
+ padding: 40px;
  display: flex;
- flex-direction: column;
 }
 
 .box_b {
-  padding-left: 80px;
-  display: flex;
-  flex-direction: column;
+  padding-top:: 40px;
+  padding-left: 40px;
+  display: flex;/* 親要素にdisplay: flexを設定すると、子要素が横に並ぶ */
+  flex-direction: column; /*flex-direction: columnを設定すると、再び縦に並ぶ*/
+  align-self: flex-start;
 }
+
+.box_b.img {
+  	position:absolute;
 }
 
 footer {
-  width: 100%;
-  text-align: center;
+  width: 1600px;
+  background-color: #333;
+  color: #fff;
+  display: -webkit-flex; /* 縦方向中央揃え（Safari用） */
+  display: flex; /* 縦方向中央揃え */
+  -webkit-align-items: center; /* 縦方向中央揃え（Safari用） */
+  align-items: center; /* 縦方向中央揃え */
+  -webkit-justify-content: center; /* 横方向中央揃え（Safari用） */
+  justify-content: center; /* 横方向中央揃え */
 }
 
 /*  ▼▼▼  ここからブレイクポイント設定  ▼▼▼  */
@@ -144,9 +156,12 @@ footer {
     margin-bottom: 35px;
   }
 
-  .content-wrapper {
+   li.header_nav  {
+      flex-direction: column;
+    }
+    .container {
     height: auto;
-  }
+    }
 }
 
 /*　スマホ　320〜559px　*/
@@ -159,8 +174,12 @@ footer {
     font-size: 20px;
   }
 
-  .content-wrapper {
+  .container {
   height: auto;
+  }
+
+ li.header_nav  {
+    flex-direction: column;
   }
 
 }
