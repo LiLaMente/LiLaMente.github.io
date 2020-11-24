@@ -1,8 +1,6 @@
 @charset "UTF-8";
 @import "https://fonts.googleapis.com/earlyaccess/notosansjapanese.css";
 
-h1 { font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; } h3 { font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; } p { font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } blockquote { font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } pre { font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5714px; }
-
 
 
 
@@ -10,69 +8,115 @@ h1 { font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, 
   box-sizing: border-box;
 }
 
-body {
-  margin: 0;
-  font-family: "Hiragino Kaku Gothic ProN";
-}
-
-a {
-  text-decoration: none;
-}
-
-.container {
+.wrap_00 {
+  width:100%;
   margin: 0 auto;
 }
 
-header {
-  height: 90px;
+body {
   width: 100%;
-  position :flex;
-  flex-direction: row;
-  top: 0;
-  z-index: 10;
-}
-
-.header_nav {
-  float: left;
-  flex-direction: row;
 }
 
 .wrap_00 {
-  width: 100%;
   margin: 0 auto;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ffffff;
+  font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; } h3 { font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; } p { font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif; font-size: 14px; font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+ blockquote {
+  font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } pre { font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5714px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: #999999;
+}
+
+.logo {
+  z-index: 10;
+  text-align: center;
 }
 
 .wrap_01 {
   width:100%;
-  margin: 0;
+  margin-left: 0;
 }
 
 .wrap_02 {
-  margin :120px 228px ;
-  position :flex;
-  flex-direction: row;
+  padding-top: 120px ;
+  float: left;
 }
 
 .box_a {
-width: 45%;
+width: 0%;
 }
 
 .box_b {
-width: 35%;
+width: 100%;
+display: flex;
 }
 
-footter {
+footer {
   width: 100%;
   text-align: center;
 }
 
 /*　ブレイクポイント設定 　*/
+/*　PC　960px以上　*/
 
-/*　画面サイズ：1000～750px　*/
-@media all and (max-width: 1000px) {
+ /*　タブレット　560〜959px　*/
+@media all and (max-width: 959px) {
+  .wrap_00 {
+    width: 50%;
+    font-size: 50%;
+    margin-top: 35px;
+    margin-bottom: 35px;
+  }
 
- /*　画面サイズ：750～670px　*/
-@media all and (max-width: 750px) {
+  .content-wrapper {
+    height: auto;
+  }
+}
 
-/*　画面サイズ：670px以下　*/
-@media all and (max-width: 670px) {
+/*　スマホ　320〜559px　*/
+@media all and (max-width: 559px) {
+  .top-wrapper h1 {
+    font-size: 32px;
+  }
+
+  .heading h2 {
+    font-size: 20px;
+  }
+
+  .content-wrapper {
+  height: auto;
+  }
+
+}
+
+/*　スマホ　未満　*/
+@media all and (max-width: 319px) {
+  font-size:40%;
+
+}
