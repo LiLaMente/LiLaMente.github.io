@@ -1,24 +1,64 @@
 @charset "UTF-8";
 @import "https://fonts.googleapis.com/earlyaccess/notosansjapanese.css";
 
-
-
-
 * {
   box-sizing: border-box;
 }
 
-.wrap_00 {
-  width:100%;
-  margin: 0 auto;
+a{
+  color: #000;
+  text-decoration: none;
 }
 
 body {
-  width: 100%;
+  width: 80px;
 }
 
-.wrap_00 {
+h1 {
+  font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+  font-size: 15px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 25.5px;
+  }
+
+p {
+  font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 20px;
+  }
+
+ blockquote {
+   font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+   font-size: 21px;
+   font-style: normal;
+   font-variant: normal;
+   font-weight: 400;
+   line-height: 30px;
+   }
+
+ pre {
+   font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+   font-size: 13px;
+   font-style: normal;
+   font-variant: normal;
+   font-weight: 400;
+   line-height: 18.5714px;
+  }
+  
+.container {
+  max-width: 1200px;
+  padding: 0 40px;
   margin: 0 auto;
+}
+
+.header_nav {
+  width: 100%;
+  float:left;
 }
 
 ul {
@@ -27,18 +67,16 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: #ffffff;
-  font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; } h3 { font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; } p { font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif; font-size: 14px; font-style: normal;
-  font-variant: normal;
-  font-weight: 400;
-  line-height: 20px;
-}
-
- blockquote {
-  font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } pre { font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5714px;
 }
 
 li {
-  float: left;
+  display: inline;
+  font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 15.4px;
 }
 
 li a {
@@ -69,12 +107,13 @@ li a:hover {
 }
 
 .box_a {
-width: 0%;
+width: 33.3333%;
 }
 
 .box_b {
-width: 100%;
+width: 33.3333%;
 display: flex;
+}
 }
 
 footer {
