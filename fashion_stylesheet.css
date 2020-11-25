@@ -153,11 +153,16 @@ footer {
     height: auto;
   }
 
+  ul {
+    width: auto;
+    height: 100px;
+  }
+
  li.header_nav  {
     flex-direction: column;/*縦型のナビリンクに変更*/
   }
 
-  resizeimage img {
+  .resizeimage img {
     width: 100vw;
   }
 }
@@ -173,10 +178,14 @@ footer {
     font-size: 35%;
   }
 
+    ul {
+      width: auto;
+      height: 100px;
+    }
   li.header_nav  {
    flex-direction: column;/*navを表示する幅が足りないので、縦型のナビリンクに変更*/
    }
-  resizeimage img {
+  .resizeimage img {
     width: 100vw;
   }
 }
@@ -185,11 +194,16 @@ footer {
 @media all and (max-width: 959px) {
  .container {
    display: flex;
-   flex-direction: row;
+   flex-direction: column;
    flex: 1 0 auto;
 /*    width: 60%;*//*959px ÷ max-width(1600px)=0.59993*/
    height: auto;
  }
+
+   ul {
+     width: auto;
+     height: 100px;
+   }
 
  .wrap_02 {
    padding-top: 120px;
@@ -209,7 +223,7 @@ footer {
    align-items:flex-start; /*align-items で配置する位置を指定 startは　開始位置　center は中央に配置　*/
  }
 
- resizeimage img {
+ .resizeimage img {
    width: 100vw;
 }
 /*　PC　960px以上は、基本設定通り　*/
