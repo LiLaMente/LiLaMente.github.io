@@ -143,43 +143,30 @@ footer {
 }
 
 /*  ▼▼▼  ここからブレイクポイント設定  ▼▼▼  */
-/*　PC　960px以上は、基本設定通り　*/
 
- /*　タブレット　560〜959px　*/
-@media all and (max-width: 959px) {
+/*　画面サイズ　320px未満　*/
+@media all and (max-width: 319px) {
   .container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;/*フレックスコンテナの主軸は、上から下になる（現在のブロック軸の方向と同じになる）*/
     flex: 1 0 auto;
-/*    width: 60%;*//*959px ÷ max-width(1600px)=0.59993*/
+  /*  width: 20%;*//*319px ÷ max-width(1600px)=0.19375*/
     height: auto;
   }
 
-  .wrap_02 {
-    padding-top: 120px;
-    flex-direction: column; /*flex-direction: columnを設定すると、再び縦に並ぶ*/
+ li.header_nav  {
+    flex-direction: column;/*縦型のナビリンクに変更*/
   }
 
-  .box_a {
-   padding: 65px 65px;
-   width: 90%;
-  }
-
-  .box_b {
-    padding: 65px 197px 65px 130px;
-    width: 90%;
-    display: flex;/* 親要素にdisplay: flexを設定すると、子要素が横に並ぶ */
-    flex-direction: column; /*flex-direction: columnを設定すると、再び縦に並ぶ*/
-    align-items:flex-start; /*align-items で配置する位置を指定 startは　開始位置　center は中央に配置　*/
-  }
+}
 
 /*　スマホ　320〜559px　*/
 @media all and (max-width: 559px) {
   .container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex: 1 0 auto;
-    width: 35%;/*559px ÷ max-width(1600px)=0.349375*/
+  /*  width: 35%;*//*559px ÷ max-width(1600px)=0.349375*/
     height: auto;
     font-size: 35%;
   }
@@ -187,26 +174,35 @@ footer {
   li.header_nav  {
      flex-direction: column;/*navを表示する幅が足りないので、縦型のナビリンクに変更*/
    }
-
-
-
-
 }
 
-/*　画面サイズ　320px未満　*/
-@media all and (max-width: 319px) {
-  .container {
-    display: flex;
-    flex-direction: row;
-    flex: 1 0 auto;
-    width: 20%;/*319px ÷ max-width(1600px)=0.19375*/
-    height: auto;
-    font-size: 35%;
-  }
+/*　タブレット　560〜959px　*/
+@media all and (max-width: 959px) {
+ .container {
+   display: flex;
+   flex-direction: row;
+   flex: 1 0 auto;
+/*    width: 60%;*//*959px ÷ max-width(1600px)=0.59993*/
+   height: auto;
+ }
 
- li.header_nav  {
-    flex-direction: column;/*navを表示する幅が足りないので、縦型のナビリンクに変更*/
-  }
+ .wrap_02 {
+   padding-top: 120px;
+   flex-direction: column; /*flex-direction: columnを設定すると、再び縦に並ぶ*/
+ }
 
-}
+ .box_a {
+  padding: 65px 65px;
+  width: 90%;
+ }
+
+ .box_b {
+   padding: 65px 197px 65px 130px;
+   width: 90%;
+   display: flex;/* 親要素にdisplay: flexを設定すると、子要素が横に並ぶ */
+   flex-direction: column; /*flex-direction: columnを設定すると、再び縦に並ぶ*/
+   align-items:flex-start; /*align-items で配置する位置を指定 startは　開始位置　center は中央に配置　*/
+ }
+
+/*　PC　960px以上は、基本設定通り　*/
 /*  ▲▲▲  ここまでブレイクポイント設定  ▲▲▲  */
