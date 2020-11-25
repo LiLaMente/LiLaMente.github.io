@@ -116,7 +116,7 @@ li a:hover {
 }
 
 .box_b {
-  padding: 65px 197px 65px 65px;
+  padding: 65px 197px 65px 130px;
   width: 45%;
   display: flex;/* 親要素にdisplay: flexを設定すると、子要素が横に並ぶ */
   flex-direction: column; /*flex-direction: columnを設定すると、再び縦に並ぶ*/
