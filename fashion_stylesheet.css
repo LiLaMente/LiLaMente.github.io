@@ -61,12 +61,6 @@ ul {
   margin: 0;
   padding: 0;
   background-color: #ffffff;
-  display: flex; /* 親要素にdisplay: flexを設定すると、子要素が横に並ぶ */
-  flex-direction: row;
-  justify-content: center;
-}
-
-li.header_nav {
   display: inline;
   display: -webkit-flex; /* 縦方向中央揃え（Safari用） */
   display: flex; /* 縦方向中央揃え */
@@ -74,13 +68,20 @@ li.header_nav {
   align-items: center; /* 縦方向中央揃え */
   -webkit-justify-content: center; /* 横方向中央揃え（Safari用） */
   justify-content: center; /* 横方向中央揃え */
+}
 
+li.header_nav {
   font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
   font-size: 15px;
   font-style: normal;
   font-variant: normal;
   font-weight: 700;
   line-height: 17.33px;
+}
+
+li.header_nav.logo {
+  z-index: 10;
+  text-align: center;
 }
 
 li a {
@@ -92,12 +93,9 @@ li a {
 }
 
 li a:hover {
-  color: #999999;
-}
-
-.logo {
-  z-index: 10;
-  text-align: center;
+/*  color: #999999;*//*フォントカラーで指定する際に使用*/
+/*  background-color: rgba(34,49,52,0.5);*/ /*文字や画像の、外側の縁で囲って、選択範囲を表示する際に使用*/
+  opacity: 0.4; /*カーソルがポイントした際、透過させる（１が元のカラー）*/
 }
 
 .wrap_01 {
