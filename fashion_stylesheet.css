@@ -55,7 +55,7 @@ p {
   }
 
 ul {
-  width: auto;
+  width: 1600px;
   height: 100px;
   list-style-type: none;
   margin: 0;
@@ -154,11 +154,17 @@ footer {
   }
 
   ul {
-    display: flex;
-    width: auto;
+    width: 100vw;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    display: inline-block;
 }
 
   li.header_nav  {
+    margin: 0;
+    padding: 0;
     flex-direction: column;/*縦型のナビリンクに変更*/
   }
 
@@ -185,11 +191,17 @@ footer {
   }
 
   ul {
-    display: flex;
-    width: auto;
+    width: 100vw;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    display: inline-block;
 }
 
   li.header_nav  {
+    margin: 0;
+    padding: 0;
     flex-direction: column;/*縦型のナビリンクに変更*/
   }
 
@@ -215,11 +227,17 @@ footer {
  }
 
  ul {
-   display: flex;
-   width: auto;
+   width: 100vw;
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   background-color: #ffffff;
+   display: inline-block;
 }
 
  li.header_nav  {
+   margin: 0;
+   padding: 0;
    flex-direction: column;/*縦型のナビリンクに変更*/
  }
 
