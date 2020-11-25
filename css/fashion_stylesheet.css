@@ -35,6 +35,9 @@ height: auto;
 li {
 margin-bottom: 20px;
 padding: 10px 0 10px 10px;
+font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+font-size: 15px;
+font-weight: bold;
 }
 
 
@@ -47,73 +50,9 @@ padding: 10px 0 10px 10px;
 
 /*  ▲▲▲  ここまで  ▲▲▲  */
 
-p {
-  font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
-  font-size: 14px;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: 400;
-  line-height: 20px;
-  }
-
- blockquote {
-   font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
-   font-size: 21px;
-   font-style: normal;
-   font-variant: normal;
-   font-weight: 400;
-   line-height: 30px;
-   }
-
- pre {
-   font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
-   font-size: 13px;
-   font-style: normal;
-   font-variant: normal;
-   font-weight: 400;
-   line-height: 18.5714px;
-  }
-
-ul {
-  width: 1600px;
-  height: 100px;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  background-color: #ffffff;
-
-  display: inline;
-  display: -webkit-flex; /* 縦方向中央揃え（Safari用） */
-  display: flex; /* 縦方向中央揃え */
-  -webkit-align-items: center; /* 縦方向中央揃え（Safari用） */
-  align-items: center; /* 縦方向中央揃え */
-  -webkit-justify-content: center; /* 横方向中央揃え（Safari用） */
-  justify-content: center; /* 横方向中央揃え */
-}
-
-li.header_nav {
-  font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
-  font-size: 15px;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: 700;
-  line-height: 17.33px;
-}
-
-li.header_nav.logo {
-  z-index: 10;
-  text-align: center;
-}
-
-li a {
-  display: flex;
-  color: #000000;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
 
 li a:hover {
+  text-decoration: none;
   opacity: 0.4; /*カーソルがポイントした際、透過させる（１が元のカラー）*/
 }
 
