@@ -148,21 +148,22 @@ footer {
  /*　タブレット　560〜959px　*/
 @media all and (max-width: 959px) {
   .container {
+    display: flex;
+    flex-direction: row;
+    flex: 1 0 auto;
     width: 60%;/*959px ÷ max-width(1600px)=0.59993*/
     height: auto;
-    font-size: 60%;
-    margin-top: 35px;
-    margin-bottom: 35px;
   }
 
 /*　スマホ　320〜559px　*/
 @media all and (max-width: 559px) {
   .container {
+    display: flex;
+    flex-direction: row;
+    flex: 1 0 auto;
     width: 35%;/*559px ÷ max-width(1600px)=0.349375*/
     height: auto;
     font-size: 35%;
-    margin-top: 35px;
-    margin-bottom: 35px;
   }
 
  li.header_nav  {
@@ -174,11 +175,12 @@ footer {
 /*　画面サイズ　320px未満　*/
 @media all and (max-width: 319px) {
   .container {
+    display: flex;
+    flex-direction: row;
+    flex: 1 0 auto;
     width: 20%;/*319px ÷ max-width(1600px)=0.19375*/
     height: auto;
     font-size: 35%;
-    margin-top: 35px;
-    margin-bottom: 35px;
   }
 
  li.header_nav  {
