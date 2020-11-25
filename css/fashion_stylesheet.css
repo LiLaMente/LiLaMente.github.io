@@ -18,6 +18,27 @@ body {
   margin: 0 auto;
 }
 
+button.drawer-toggle {
+height:50px;
+}
+.drawer-default li a {
+display: block;
+}
+
+.drawer-hamburger {width:3em;}
+
+
+img {
+width: 100%;
+height: auto;
+}
+
+li {
+margin-bottom: 20px;
+padding: 10px 0 10px 10px;
+}
+
+
 .container {
   display: flex;
   flex-direction: row;
@@ -118,9 +139,6 @@ li a:hover {
   align-items:flex-start; /*align-items で配置する位置を指定 startは　開始位置　center は中央に配置　*/
 }
 
-img {
-  height: auto;
-}
 
 img.bottom {
   height: auto;
