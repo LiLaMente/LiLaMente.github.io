@@ -116,16 +116,18 @@ li a:hover {
 }
 
 .wrap_02 {
-  padding: 120px;
+  padding-top: 120px;
   display: flex;
 }
 
 .box_a {
- padding: 40px;
+ padding: 60px 60px;
+ width: 45%;
 }
 
 .box_b {
-  padding: 40px;
+  padding: 60px 60px 60px 792px;
+  width: 45%;
   display: flex;/* 親要素にdisplay: flexを設定すると、子要素が横に並ぶ */
   flex-direction: column; /*flex-direction: columnを設定すると、再び縦に並ぶ*/
   align-items:flex-start; /*align-items で配置する位置を指定 startは　開始位置　center は中央に配置　*/
