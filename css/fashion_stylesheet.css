@@ -32,6 +32,10 @@ width: 100%;
 height: auto;
 }
 
+img.bottom {
+padding: 60px 0 60px 0;
+}
+
 li {
 margin-bottom: 20px;
 padding: 10px 0 10px 10px;
@@ -103,10 +107,6 @@ li a:hover {
   display: flex;/* 親要素にdisplay: flexを設定すると、子要素が横に並ぶ */
   flex-direction: column; /*flex-direction: columnを設定すると、再び縦に並ぶ*/
   align-items:flex-start; /*align-items で配置する位置を指定 startは　開始位置　center は中央に配置　*/
-}
-.box_c {
-  padding: 100px;
-  width: 50%;
 }
 
 footer {
