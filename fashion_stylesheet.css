@@ -132,7 +132,6 @@ img.bottom {
 }
 
 footer {
-  width: 1600px;
   color: #000;
   display: -webkit-flex; /* 縦方向中央揃え（Safari用） */
   display: flex; /* 縦方向中央揃え */
