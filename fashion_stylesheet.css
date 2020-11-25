@@ -133,8 +133,7 @@ img.bottom {
 
 footer {
   width: 1600px;
-  background-color: #333;
-  color: #fff;
+  color: #000;
   display: -webkit-flex; /* 縦方向中央揃え（Safari用） */
   display: flex; /* 縦方向中央揃え */
   -webkit-align-items: center; /* 縦方向中央揃え（Safari用） */
