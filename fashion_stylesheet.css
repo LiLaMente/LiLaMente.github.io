@@ -200,11 +200,6 @@ footer {
    height: auto;
  }
 
-   ul {
-     width: auto;
-     height: 100px;
-   }
-
  .wrap_02 {
    padding-top: 120px;
    flex-direction: column; /*flex-direction: columnを設定すると、再び縦に並ぶ*/
