@@ -151,13 +151,12 @@ footer {
     display: flex;
     flex-direction: row;
     flex: 1 0 auto;
-    width: 60%;/*959px ÷ max-width(1600px)=0.59993*/
+/*    width: 60%;*//*959px ÷ max-width(1600px)=0.59993*/
     height: auto;
   }
 
   .wrap_02 {
     padding-top: 120px;
-    display: flex;
     flex-direction: column; /*flex-direction: columnを設定すると、再び縦に並ぶ*/
   }
 
