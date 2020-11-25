@@ -92,15 +92,17 @@ li a:hover {
 }
 
 .wrap_02 {
-  padding-top: 120px;
+  padding-top: 60px;
   display: flex;
 }
 
 .box_a {
+  padding-top: 60px;
   padding-left: 60px;
 }
 
 .box_b {
+  padding-top: 60px;
   padding-left: 60px;
   display: flex;/* 親要素にdisplay: flexを設定すると、子要素が横に並ぶ */
   flex-direction: column; /*flex-direction: columnを設定すると、再び縦に並ぶ*/
