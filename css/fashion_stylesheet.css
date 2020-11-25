@@ -40,6 +40,32 @@ font-size: 15px;
 font-weight: bold;
 }
 
+p {
+  font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 20px;
+  }
+
+ blockquote {
+   font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+   font-size: 21px;
+   font-style: normal;
+   font-variant: normal;
+   font-weight: 400;
+   line-height: 30px;
+   }
+
+ pre {
+   font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+   font-size: 13px;
+   font-style: normal;
+   font-variant: normal;
+   font-weight: 400;
+   line-height: 18.5714px;
+  }
 
 .container {
   display: flex;
@@ -67,21 +93,20 @@ li a:hover {
 }
 
 .box_a {
- padding: 65px 65px;ss
+ padding: 65px 65px;
+  width: 50%;
 }
 
 .box_b {
-  margin: 0 auto;
+  padding-left: 100px;
+  width: 50%;
   display: flex;/* 親要素にdisplay: flexを設定すると、子要素が横に並ぶ */
   flex-direction: column; /*flex-direction: columnを設定すると、再び縦に並ぶ*/
   align-items:flex-start; /*align-items で配置する位置を指定 startは　開始位置　center は中央に配置　*/
 }
-
-
-img.bottom {
-  height: auto;
-  padding-top: 120px;
-  padding-left: 10px;
+.box_c {
+  padding: 100px;
+  width: 50%;
 }
 
 footer {
