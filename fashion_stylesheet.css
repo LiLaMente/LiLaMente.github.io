@@ -55,7 +55,7 @@ p {
   }
 
 ul {
-  width: 1600px;
+  width: auto;
   height: 100px;
   list-style-type: none;
   margin: 0;
@@ -154,17 +154,23 @@ footer {
   }
 
   ul {
+    display: flex;
     width: auto;
-    height: 100px;
-  }
+}
 
- li.header_nav  {
+  li.header_nav  {
     flex-direction: column;/*縦型のナビリンクに変更*/
   }
 
-  .resizeimage img {
+  img.resizeimage {
     width: 100vw;
   }
+}
+
+.wrap_02 {
+  margin-left: 0;
+  width: 100%;
+  flex-direction: column; /*flex-direction: columnを設定すると、再び縦に並ぶ*/
 }
 
 /*　スマホ　320〜559px　*/
@@ -178,16 +184,24 @@ footer {
     font-size: 35%;
   }
 
-    ul {
-      width: auto;
-      height: 100px;
-    }
+  ul {
+    display: flex;
+    width: auto;
+}
+
   li.header_nav  {
-   flex-direction: column;/*navを表示する幅が足りないので、縦型のナビリンクに変更*/
-   }
-  .resizeimage img {
+    flex-direction: column;/*縦型のナビリンクに変更*/
+  }
+
+   img.resizeimage {
     width: 100vw;
   }
+}
+
+.wrap_02 {
+  margin-left: 0;
+  width: 100%;
+  flex-direction: column; /*flex-direction: columnを設定すると、再び縦に並ぶ*/
 }
 
 /*　タブレット　560〜959px　*/
@@ -200,26 +214,24 @@ footer {
    height: auto;
  }
 
- .wrap_02 {
-   padding-top: 120px;
-   flex-direction: column; /*flex-direction: columnを設定すると、再び縦に並ぶ*/
+ ul {
+   display: flex;
+   width: auto;
+}
+
+ li.header_nav  {
+   flex-direction: column;/*縦型のナビリンクに変更*/
  }
 
- .box_a {
-  padding: 65px 65px;
-  width: 90%;
- }
-
- .box_b {
-   padding: 65px 197px 65px 130px;
-   width: 90%;
-   display: flex;/* 親要素にdisplay: flexを設定すると、子要素が横に並ぶ */
-   flex-direction: column; /*flex-direction: columnを設定すると、再び縦に並ぶ*/
-   align-items:flex-start; /*align-items で配置する位置を指定 startは　開始位置　center は中央に配置　*/
- }
-
- .resizeimage img {
+ img.resizeimage {
    width: 100vw;
 }
+
+.wrap_02 {
+  margin-left: 0;
+  width: 100%;
+  flex-direction: column; /*flex-direction: columnを設定すると、再び縦に並ぶ*/
+}
+
 /*　PC　960px以上は、基本設定通り　*/
 /*  ▲▲▲  ここまでブレイクポイント設定  ▲▲▲  */
