@@ -148,43 +148,43 @@ footer {
 
  /*　タブレット　560〜959px　*/
 @media all and (max-width: 959px) {
-  .wrap_00 {
-    width: 40%;
-    font-size: 40%;
+  .container {
+    width: 60%;/*959px ÷ max-width(1600px)=0.59993*/
+    height: auto;
+    font-size: 60%;
     margin-top: 35px;
     margin-bottom: 35px;
   }
 
-   li.header_nav  {
-      flex-direction: column;
-    }
-    .container {
-    height: auto;
-    }
-}
-
 /*　スマホ　320〜559px　*/
 @media all and (max-width: 559px) {
-  .top-wrapper h1 {
-    font-size: 32px;
-  }
-
-  .heading h2 {
-    font-size: 20px;
-  }
-
   .container {
-  height: auto;
+    width: 35%;/*559px ÷ max-width(1600px)=0.349375*/
+    height: auto;
+    font-size: 35%;
+    margin-top: 35px;
+    margin-bottom: 35px;
   }
 
  li.header_nav  {
-    flex-direction: column;
+    flex-direction: column;/*navを表示する幅が足りないので、縦型のナビリンクに変更*/
   }
 
 }
 
 /*　画面サイズ　320px未満　*/
 @media all and (max-width: 319px) {
-  font-size:40%;
+  .container {
+    width: 20%;/*319px ÷ max-width(1600px)=0.19375*/
+    height: auto;
+    font-size: 35%;
+    margin-top: 35px;
+    margin-bottom: 35px;
+  }
+
+ li.header_nav  {
+    flex-direction: column;/*navを表示する幅が足りないので、縦型のナビリンクに変更*/
+  }
+
 }
 /*  ▲▲▲  ここまでブレイクポイント設定  ▲▲▲  */
