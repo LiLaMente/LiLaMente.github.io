@@ -36,10 +36,6 @@ img.bottom {
 padding: 60px 0 60px 0;
 }
 
-img.sub_image {
-width: 100%;
-}
-
 li {
 margin-bottom: 20px;
 padding: 10px 0 10px 10px;
@@ -102,12 +98,10 @@ li a:hover {
 
 .box_a {
   padding-left: 60px;
-  max-width: 732px;
 }
 
 .box_b {
   padding-left: 60px;
-  max-width: 668px;
   display: flex;/* 親要素にdisplay: flexを設定すると、子要素が横に並ぶ */
   flex-direction: column; /*flex-direction: columnを設定すると、再び縦に並ぶ*/
   align-items:flex-start; /*align-items で配置する位置を指定 startは　開始位置　center は中央に配置　*/
