@@ -1,0 +1,252 @@
+/*  ▼▼▼  ここから  ▼▼▼  */
+@charset "UTF-8";
+@import "https://fonts.googleapis.com/earlyaccess/notosansjapanese.css";
+
+* {
+  box-sizing: border-box;
+}
+
+a{
+  color: #000;
+  text-decoration: none;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  flex: 1 0 auto;
+}
+
+/*  ▲▲▲  ここまで  ▲▲▲  */
+
+p {
+  font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 20px;
+  }
+
+ blockquote {
+   font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+   font-size: 21px;
+   font-style: normal;
+   font-variant: normal;
+   font-weight: 400;
+   line-height: 30px;
+   }
+
+ pre {
+   font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+   font-size: 13px;
+   font-style: normal;
+   font-variant: normal;
+   font-weight: 400;
+   line-height: 18.5714px;
+  }
+
+ul {
+  width: 1600px;
+  height: 100px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+
+  display: inline;
+  display: -webkit-flex; /* 縦方向中央揃え（Safari用） */
+  display: flex; /* 縦方向中央揃え */
+  -webkit-align-items: center; /* 縦方向中央揃え（Safari用） */
+  align-items: center; /* 縦方向中央揃え */
+  -webkit-justify-content: center; /* 横方向中央揃え（Safari用） */
+  justify-content: center; /* 横方向中央揃え */
+}
+
+li.header_nav {
+  font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+  font-size: 15px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 17.33px;
+}
+
+li.header_nav.logo {
+  z-index: 10;
+  text-align: center;
+}
+
+li a {
+  display: flex;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  opacity: 0.4; /*カーソルがポイントした際、透過させる（１が元のカラー）*/
+}
+
+.wrap_01 {
+  width: 100%;
+  margin-left: 0;
+}
+
+.wrap_02 {
+  padding-top: 120px;
+  display: flex;
+}
+
+.box_a {
+ padding: 65px 65px;ss
+}
+
+.box_b {
+  margin: 0 auto;
+  display: flex;/* 親要素にdisplay: flexを設定すると、子要素が横に並ぶ */
+  flex-direction: column; /*flex-direction: columnを設定すると、再び縦に並ぶ*/
+  align-items:flex-start; /*align-items で配置する位置を指定 startは　開始位置　center は中央に配置　*/
+}
+
+img {
+  height: auto;
+}
+
+img.bottom {
+  height: auto;
+  padding-top: 120px;
+  padding-left: 10px;
+}
+
+footer {
+  color: #000;
+  display: -webkit-flex; /* 縦方向中央揃え（Safari用） */
+  display: flex; /* 縦方向中央揃え */
+  -webkit-align-items: center; /* 縦方向中央揃え（Safari用） */
+  align-items: center; /* 縦方向中央揃え */
+  -webkit-justify-content: center; /* 横方向中央揃え（Safari用） */
+  justify-content: center; /* 横方向中央揃え */
+}
+
+/*  ▼▼▼  ここからブレイクポイント設定  ▼▼▼  */
+
+/*　画面サイズ　320px未満　*/
+@media all and (max-width: 319px) {
+  .container {
+    display: flex;
+    flex-direction: column;/*フレックスコンテナの主軸は、上から下になる（現在のブロック軸の方向と同じになる）*/
+    flex: 1 0 auto;
+  /*  width: 20%;*//*319px ÷ max-width(1600px)=0.19375*/
+    height: auto;
+  }
+
+  ul {
+    width: 100vw;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    display: inline-block;
+}
+
+  li.header_nav  {
+    margin: 0;
+    padding: 0;
+    flex-direction: column;/*縦型のナビリンクに変更*/
+  }
+
+  img.resizeimage {
+    width: 100vw;
+  }
+}
+
+.wrap_02 {
+  margin-left: 0;
+  width: 100%;
+  flex-direction: column; /*flex-direction: columnを設定すると、再び縦に並ぶ*/
+}
+
+/*　スマホ　320〜559px　*/
+@media all and (max-width: 559px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+  /*  width: 35%;*//*559px ÷ max-width(1600px)=0.349375*/
+    height: auto;
+    font-size: 35%;
+  }
+
+  ul {
+    width: 100vw;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    display: inline-block;
+}
+
+  li.header_nav  {
+    margin: 0;
+    padding: 0;
+    flex-direction: column;/*縦型のナビリンクに変更*/
+  }
+
+   img.resizeimage {
+    width: 100vw;
+  }
+}
+
+.wrap_02 {
+  margin-left: 0;
+  width: 100%;
+  flex-direction: column; /*flex-direction: columnを設定すると、再び縦に並ぶ*/
+}
+
+/*　タブレット　560〜959px　*/
+@media all and (max-width: 959px) {
+ .container {
+   display: flex;
+   flex-direction: column;
+   flex: 1 0 auto;
+/*    width: 60%;*//*959px ÷ max-width(1600px)=0.59993*/
+   height: auto;
+ }
+
+ ul {
+   width: 100vw;
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   background-color: #ffffff;
+   display: inline-block;
+}
+
+ li.header_nav  {
+   margin: 0;
+   padding: 0;
+   flex-direction: column;/*縦型のナビリンクに変更*/
+ }
+
+ img.resizeimage {
+   width: 100vw;
+}
+
+.wrap_02 {
+  margin-left: 0;
+  width: 100%;
+  flex-direction: column; /*flex-direction: columnを設定すると、再び縦に並ぶ*/
+}
+
+/*　PC　960px以上は、基本設定通り　*/
+/*  ▲▲▲  ここまでブレイクポイント設定  ▲▲▲  */

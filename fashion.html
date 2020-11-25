@@ -7,22 +7,34 @@
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="css/fashion_stylesheet.css">
   <link rel="icon" type="image/x-icon" href="https://lilamente.github.io/images/favicon4.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+
 </head>
 
-<body>
-<div class="containar">
-  <header>
-  <ul>
-   <li class="header_nav.logo"><a href="fashion.html"><img src="fashion_images/top_logo.jpg"></a></li>
-   <li class="header_nav"><a href="">NEW IN</a></li>
-   <li class="header_nav"><a href="">CLLECTION</a></li>
-   <li class="header_nav"><a href="">LOOK BOOK</a></li>
-   <li class="header_nav"><a href="">OUR STORY</a></li>
-   <li class="header_nav"><a href="">NEWS</a></li>
-   <li class="header_nav"><a href="">STORYS</a></li>
- </ul>
+<body class="drawer drawer--left">
+	<header role="banner">
+		<button type="button" class="drawer-toggle drawer-hamburger">
+			<span class="sr-only">toggle navigation</span>
+			<span class="drawer-hamburger-icon"></span>
+		</button>
+    <nav class="drawer-nav" role="navigation">
+			<ul class="drawer-menu">
+       <li><a class="drawer-brand" href="fashion.html"><img src="fashion_images/top_logo.jpg"></a></li>
+        <li><a class="drawer-menu-item" href="#">NEW IN</a></li>
+        <li><a class="drawer-menu-item" href="#">CLLECTION</a></li>
+        <li><a class="drawer-menu-item" href="#">LOOK BOOK</a></li>
+        <li><a class="drawer-menu-item" href="#">OUR STORY</a></li>
+        <li><a class="drawer-menu-item" href="#">NEWS</a></li>
+        <li><a class="drawer-menu-item" href="#">STORYS</a></li>
+    </ul>
+   </nav>
  </header>
 </div>
+<main role="main">
+<!-- コンテンツ -->
 <div class="containar">
 <div class="wrap_01">
     <div><a href="fashion.html"><img class="resizeimage" src="fashion_images/main01.jpg"></a>
@@ -41,12 +53,11 @@
       <img src="fashion_images/box_01_catch.jpg">
       <img class="bottom" src="fashion_images/box_01_discover.jpg">
    </div>
-</div>
-</div>
+  </div>
+ </div>
+</main>
 <footer>
   <p>Copyright <span class="fa fa-copyright"></span> 2020 Li_La Rights Reserved.</p>
 </footer>
-
-
 </body>
 </html>
