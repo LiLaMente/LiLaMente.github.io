@@ -155,6 +155,25 @@ footer {
     height: auto;
   }
 
+  .wrap_02 {
+    padding-top: 120px;
+    display: flex;
+    flex-direction: column; /*flex-direction: columnを設定すると、再び縦に並ぶ*/
+  }
+
+  .box_a {
+   padding: 65px 65px;
+   width: 90%;
+  }
+
+  .box_b {
+    padding: 65px 197px 65px 130px;
+    width: 90%;
+    display: flex;/* 親要素にdisplay: flexを設定すると、子要素が横に並ぶ */
+    flex-direction: column; /*flex-direction: columnを設定すると、再び縦に並ぶ*/
+    align-items:flex-start; /*align-items で配置する位置を指定 startは　開始位置　center は中央に配置　*/
+  }
+
 /*　スマホ　320〜559px　*/
 @media all and (max-width: 559px) {
   .container {
@@ -166,9 +185,12 @@ footer {
     font-size: 35%;
   }
 
- li.header_nav  {
-    flex-direction: column;/*navを表示する幅が足りないので、縦型のナビリンクに変更*/
-  }
+  li.header_nav  {
+     flex-direction: column;/*navを表示する幅が足りないので、縦型のナビリンクに変更*/
+   }
+
+
+
 
 }
 
