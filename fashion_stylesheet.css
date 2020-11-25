@@ -157,6 +157,9 @@ footer {
     flex-direction: column;/*縦型のナビリンクに変更*/
   }
 
+  resizeimage img {
+    width: 100vw;
+  }
 }
 
 /*　スマホ　320〜559px　*/
@@ -171,8 +174,11 @@ footer {
   }
 
   li.header_nav  {
-     flex-direction: column;/*navを表示する幅が足りないので、縦型のナビリンクに変更*/
+   flex-direction: column;/*navを表示する幅が足りないので、縦型のナビリンクに変更*/
    }
+  resizeimage img {
+    width: 100vw;
+  }
 }
 
 /*　タブレット　560〜959px　*/
@@ -203,5 +209,8 @@ footer {
    align-items:flex-start; /*align-items で配置する位置を指定 startは　開始位置　center は中央に配置　*/
  }
 
+ resizeimage img {
+   width: 100vw;
+}
 /*　PC　960px以上は、基本設定通り　*/
 /*  ▲▲▲  ここまでブレイクポイント設定  ▲▲▲  */
