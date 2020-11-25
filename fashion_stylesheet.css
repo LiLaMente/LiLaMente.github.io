@@ -56,6 +56,7 @@ p {
 
 ul {
   width: 1600px;
+  height: 100px;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -81,17 +82,6 @@ li.header_nav {
   font-weight: 700;
   line-height: 17.33px;
 }
-
-li.header_nav_logo {
-  margin-top: 35px;
-  justify-content: center;
-  font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
-  font-size: 15px;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: 700;
-  line-height: 25.5px;
-  }
 
 li a {
   display: block;
@@ -121,12 +111,12 @@ li a:hover {
 }
 
 .box_a {
- padding: 60px 60px;
+ padding: 65px 100px;
  width: 45%;
 }
 
 .box_b {
-  padding: 60px 60px 60px 792px;
+  padding: 65px 197px 100px 792px;
   width: 45%;
   display: flex;/* 親要素にdisplay: flexを設定すると、子要素が横に並ぶ */
   flex-direction: column; /*flex-direction: columnを設定すると、再び縦に並ぶ*/
@@ -156,13 +146,13 @@ footer {
 }
 
 /*  ▼▼▼  ここからブレイクポイント設定  ▼▼▼  */
-/*　PC　960px以上　*/
+/*　PC　960px以上は、基本設定通り　*/
 
  /*　タブレット　560〜959px　*/
 @media all and (max-width: 959px) {
   .wrap_00 {
-    width: 50%;
-    font-size: 50%;
+    width: 40%;
+    font-size: 40%;
     margin-top: 35px;
     margin-bottom: 35px;
   }
@@ -195,7 +185,7 @@ footer {
 
 }
 
-/*　スマホ画面サイズ　未満　*/
+/*　画面サイズ　320px未満　*/
 @media all and (max-width: 319px) {
   font-size:40%;
 }
