@@ -1,15 +1,69 @@
+@charset "UTF-8";
+@import "https://fonts.googleapis.com/earlyaccess/notosansjapanese.css";
+
 * {
   box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  font-family: "Hiragino Kaku Gothic ProN";
 }
 
 a {
   text-decoration: none;
 }
+
+body {
+  display: flex;
+  flex-direction: column;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+button.drawer-toggle {
+height:50px;
+}
+.drawer-default li a {
+display: block;
+}
+
+.drawer-hamburger {width:3em;}
+
+.resizeimage {
+width: 100%;
+height: auto;
+}
+
+li {
+margin-bottom: 20px;
+padding: 10px 0 10px 10px;
+font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+font-size: 15px;
+font-weight: bold;
+}
+
+p {
+  font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 20px;
+  }
+
+ h2 {
+   font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+   font-size: 21px;
+   font-style: normal;
+   font-variant: normal;
+   font-weight: 400;
+   line-height: 30px;
+   }
+
+ pre {
+   font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+   font-size: 13px;
+   font-style: normal;
+   font-variant: normal;
+   font-weight: 400;
+   line-height: 18.5714px;
+  }
 
 .container {
   width: 100%;
@@ -37,7 +91,7 @@ a {
   margin-bottom: 40px;
 }
 
-
+/*
 .btn {
   margin:0 auto;
   color: white;
@@ -50,13 +104,14 @@ a {
 .btn:hover {
   opacity: 1;
 }
-
+*/
 
 .fa {
   margin-right: 5px;
   margin-left: 5px;
 }
 
+/* 旧横型ナビのコード
 header {
   height: 55px;
   width: 100%;
@@ -101,6 +156,10 @@ nav li a:hover {
   color: white;
   background-color: rgba(255,255,255,0.3);
 }
+
+*/
+
+/* ハンバーガーナビのコード*/
 
 .content-wrapper {
   padding-top: 40px;
