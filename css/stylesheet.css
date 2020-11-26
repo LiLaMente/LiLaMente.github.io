@@ -23,7 +23,9 @@ height:50px;
 display: block;
 }
 
-.drawer-hamburger {width:3em;}
+.drawer-hamburger {
+  width:2em;
+}
 
 .drawer-hamburger {
     background: #fff;
