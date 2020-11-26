@@ -25,6 +25,10 @@ display: block;
 
 .drawer-hamburger {width:3em;}
 
+.drawer-hamburger {
+    background: #fff;
+}
+
 .resizeimage {
 width: 100%;
 height: auto;
