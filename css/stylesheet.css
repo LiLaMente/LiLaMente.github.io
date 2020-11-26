@@ -288,15 +288,6 @@ footer {
 }
 
 @media all and (max-width: 670px) {
-  /* 旧ナビ
-  nav ul {
-  	display: flex;
-  	flex-flow: row;
-  	margin 0;
-    padding: 5px 5px;
-  	list-style-type: none;
-  }
-  */
 
  .top-wrapper h1 {
     font-size: 24px;
