@@ -24,7 +24,7 @@ display: block;
 }
 
 .drawer-hamburger {
-  width:2em;
+  width: 3em;
 }
 
 .drawer-overlay {
@@ -36,6 +36,66 @@ width: 100%;
 height: auto;
 }
 
+a.hover {
+  opacity: 0.4;
+}
+
+
+h1 {
+ font-family: Limelight;
+/* font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;*/
+ font-size: 28px;
+ font-style: normal;
+ font-variant: normal;
+ font-weight: 700;
+ line-height: 28px;
+}
+
+h2 {
+ font-family: Limelight;
+ font-size: 24px;
+ font-style: normal;
+ font-variant: normal;
+ font-weight: 700;
+ line-height: 28px;
+}
+
+ h3 {
+  font-family: Limelight;
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 15.4px;
+}
+
+  p {
+   font-family: Limelight;
+   font-size: 14px;
+   font-style: normal;
+   font-variant: normal;
+   font-weight: 400;
+   line-height: 20px;
+ }
+
+  blockquote {
+  font-family: Limelight;
+  font-size: 21px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+  pre {
+  font-family: Limelight;
+  font-size: 13px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 18.5714px;
+}
+
 li {
 margin-bottom: 10px;
 padding: 8px 0 8px 8px;
@@ -44,33 +104,6 @@ font-size: 28px;
 font-weight: bold;
 }
 
-p {
-  font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
-  font-size: 15px;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: bold;
-  line-height: 20px;
-  }
-
- h2 {
-   font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
-   font-size: 21px;
-   font-style: normal;
-   font-variant: normal;
-   font-weight: bold;
-   line-height: 30px;
-   }
-
- pre {
-   font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
-   font-size: 18px;
-   font-style: normal;
-   font-variant: normal;
-   font-weight: 400;
-   line-height: 18.5714px;
-  }
-
 .container {
   width: 100%;
   padding: 0 15px;
@@ -78,7 +111,7 @@ p {
 }
 
 .top-wrapper {
-  padding: 180px 0 100px 100px;
+  padding: 180px 0 100px 0px;
   background-image: url(../images/top.jpg);
   background-size: cover;
   color: white;
