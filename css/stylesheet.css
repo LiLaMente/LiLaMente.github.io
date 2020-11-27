@@ -51,7 +51,7 @@ h1 {
 }
 
 h2 {
- font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+ font-family: "メイリオ","Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
  font-size: 29.124px;
  font-style: normal;
  font-variant: normal;
@@ -205,9 +205,6 @@ nav li a:hover {
   color: #5f5d60;
 }
 
-.heading h2 {
-  font-weight: normal;
-}
 
 .content {
   margin:0 auto;
