@@ -38,7 +38,7 @@ padding: 60px 0 60px 0;
 }
 
 nav.top-nav {
-  width:100vw;
+  max-width: 1600px;
   display: flex;
 }
 
