@@ -38,8 +38,8 @@ padding: 60px 0 60px 0;
 }
 
 nav.top-nav {
-  max-width: 1600px;
-  display: flex;
+margin: 0 auto;
+display: flex;
 }
 
 ul.top-menu {
@@ -58,14 +58,14 @@ font-weight: bold;
 }
 
 li.top-menu-item {
-  display: flex;
-  flex-direction: row;
+display: flex;
+flex-direction: row;
 }
 
 #top-brand {
-  font-size: 25px;
-  padding: 12px;
-  margin-top: -20px;
+font-size: 25px;
+padding: 12px;
+margin-top: -20px;
 }
 
 
