@@ -24,11 +24,19 @@ display: block;
 }
 
 .drawer-hamburger {
-  width: 3em;
+  width: 2em;
 }
 
-.drawer-overlay {
-    background-color: rgba(0, 0, 0, .2);
+.drawer-hamburger-icon,
+.drawer-hamburger-icon:after,
+.drawer-hamburger-icon:before {
+  background-color: #fff;
+}
+
+.drawer-nav {
+    background: #fff;
+    width: 150px;
+    opacity: 0.8;
 }
 
 .resizeimage {
