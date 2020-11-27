@@ -30,7 +30,7 @@ display: block;
 .drawer-hamburger-icon,
 .drawer-hamburger-icon:after,
 .drawer-hamburger-icon:before {
-  background-color: #fff;
+  background-color: #999;
 }
 
 .drawer-nav {
