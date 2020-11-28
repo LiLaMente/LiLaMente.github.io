@@ -127,12 +127,12 @@ li a:hover {
 
 footer {
   color: #000;
-  display: -webkit-flex; /* 縦方向中央揃え（Safari用） */
-  display: flex; /* 縦方向中央揃え */
-  -webkit-align-items: center; /* 縦方向中央揃え（Safari用） */
-  align-items: center; /* 縦方向中央揃え */
-  -webkit-justify-content: center; /* 横方向中央揃え（Safari用） */
-  justify-content: center; /* 横方向中央揃え */
+  display: -webkit-flex; /* Safari */
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
 }
 
 /*  ▼▼▼  ここからブレイクポイント設定  ▼▼▼  */
@@ -141,9 +141,8 @@ footer {
 @media all and (max-width: 319px) {
   .container {
     display: flex;
-    flex-direction: column;/*フレックスコンテナの主軸は、上から下になる（現在のブロック軸の方向と同じになる）*/
+    flex-direction: column;
     flex: 1 0 auto;
-  /*  width: 20%;*//*319px ÷ max-width(1600px)=0.19375*/
     height: auto;
   }
 
@@ -170,6 +169,29 @@ footer {
     flex-direction: column;/*縦型のナビリンクに変更*/
   }
 
+  button.drawer-toggle {
+  height:50px;
+  }
+  .drawer-default li a {
+  display: block;
+  }
+
+  .drawer-hamburger {
+    width: 2em;
+  }
+
+  .drawer-hamburger-icon,
+  .drawer-hamburger-icon:after,
+  .drawer-hamburger-icon:before {
+    background-color: #999;
+  }
+
+  .drawer-nav {
+      background: #fff;
+      opacity: 0.8;
+  }
+
+
   img.resizeimage {
     width: 100vw;
   }
@@ -178,7 +200,7 @@ footer {
 .wrap_02 {
   margin-left: 0;
   width: 100%;
-  flex-direction: column; /*flex-direction: columnを設定すると、再び縦に並ぶ*/
+  flex-direction: column;
 }
 
 /*　スマホ　320〜559px　*/
@@ -213,6 +235,28 @@ footer {
     margin: 0;
     padding: 0;
     flex-direction: column;/*縦型のナビリンクに変更*/
+  }
+
+  button.drawer-toggle {
+  height:50px;
+  }
+  .drawer-default li a {
+  display: block;
+  }
+
+  .drawer-hamburger {
+    width: 2em;
+  }
+
+  .drawer-hamburger-icon,
+  .drawer-hamburger-icon:after,
+  .drawer-hamburger-icon:before {
+    background-color: #999;
+  }
+
+  .drawer-nav {
+      background: #fff;
+      opacity: 0.8;
   }
 
    img.resizeimage {
@@ -257,6 +301,28 @@ footer {
    margin: 0;
    padding: 0;
    flex-direction: column;/*縦型のナビリンクに変更*/
+ }
+
+ button.drawer-toggle {
+ height:50px;
+ }
+ .drawer-default li a {
+ display: block;
+ }
+
+ .drawer-hamburger {
+   width: 2em;
+ }
+
+ .drawer-hamburger-icon,
+ .drawer-hamburger-icon:after,
+ .drawer-hamburger-icon:before {
+   background-color: #999;
+ }
+
+ .drawer-nav {
+     background: #fff;
+     opacity: 0.8;
  }
 
  img.resizeimage {
