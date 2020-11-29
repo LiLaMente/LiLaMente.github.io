@@ -20,15 +20,16 @@ body {
 }
 
 .drawer_header {
-  display: none;
+  display: block;
+  padding: -10px;
 }
 
 nav.top-nav {
 margin: 0 auto;
 display: block;
 z-index: 1000;
+padding: 5px;
 width: 100%;
-height: 95px;
 top: 0;
 }
 
@@ -41,7 +42,7 @@ li {
 margin: 0 auto;
 display: flex;
 flex-direction: row;
-padding: 25px 5px 5px 5px;
+z-index: -1;
 font-family: "Bodoni MT", "Didot", "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
 letter-spacing: 1px;
 font-size: 18px;
@@ -49,14 +50,18 @@ font-weight: bold;
 }
 
 li.top-menu-item {
+margin: 0 auto;
 display: flex;
-flex-direction: row;
+justify-content: center;
+align-items: center;
 }
 
 #top-brand {
+margin: 0 auto;
 font-size: 29.124px;
-padding: 12px;
-margin-top: -20px;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
 img.resizeimage {
@@ -99,11 +104,9 @@ img.resizeimage {
 }
 .viewer .btnPrev {
     left: 10px;
-    background: #ccc url(../img/btnPrev.jpg) no-repeat center center;
 }
 .viewer .btnNext {
     right: 10px;
-    background: #ccc url(../img/btnNext.jpg) no-repeat center center;
 }
 
 
@@ -157,17 +160,15 @@ p {
   flex: 1 0 auto;
 }
 
-/*  ▲▲▲  ここまで  ▲▲▲  */
-
-
 li a:hover {
   text-decoration: none;
-  opacity: 0.4; /*カーソルがポイントした際、透過させる（１が元のカラー）*/
+  opacity: 0.4;
 }
 
 .wrap_01 {
+  margin: 0 auto;
   width: 100%;
-  margin-left: 0;
+
 }
 
 .wrap_02 {
@@ -183,14 +184,14 @@ li a:hover {
 .box_b {
   padding-top: 60px;
   padding-left: 60px;
-  display: flex;/* 親要素にdisplay: flexを設定すると、子要素が横に並ぶ */
-  flex-direction: column; /*flex-direction: columnを設定すると、再び縦に並ぶ*/
-  align-items:flex-start; /*align-items で配置する位置を指定 startは　開始位置　center は中央に配置　*/
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
 }
 
 footer {
   color: #000;
-  display: -webkit-flex; /* Safari */
+  display: -webkit-flex;
   display: flex;
   -webkit-align-items: center;
   align-items: center;
@@ -198,9 +199,25 @@ footer {
   justify-content: center;
 }
 
-/*  ▼▼▼  ここからブレイクポイント設定  ▼▼▼  */
+/* =======================================
+    BreakPoint MediaQuery
+======================================= */
 
-/*　画面サイズ　320px未満　*/
+/* =======================================
+    PC over 960px =  top_header on
+======================================= */
+
+
+/* =======================================
+    under 960px =  top_header off
+======================================= */
+
+@media all and (max-width: 959px) {
+ .top_header {
+  display: none;
+}
+
+/*　size undet　320pxy
 @media all and (max-width: 319px) {
   .container {
     display: flex;
@@ -229,7 +246,7 @@ footer {
   li.header_nav  {
     margin: 0;
     padding: 0;
-    flex-direction: column;/*縦型のナビリンクに変更*/
+    flex-direction: column;
   }
 
   button.drawer-toggle {
@@ -266,13 +283,12 @@ footer {
   flex-direction: column;
 }
 
-/*　スマホ　320〜559px　*/
+/*　size 320〜559px
 @media all and (max-width: 559px) {
   .container {
     display: flex;
     flex-direction: column;
     flex: 1 0 auto;
-  /*  width: 35%;*//*559px ÷ max-width(1600px)=0.349375*/
     height: auto;
     font-size: 35%;
   }
@@ -297,7 +313,7 @@ footer {
   li.header_nav  {
     margin: 0;
     padding: 0;
-    flex-direction: column;/*縦型のナビリンクに変更*/
+    flex-direction: column;
   }
 
   button.drawer-toggle {
@@ -330,16 +346,14 @@ footer {
 .wrap_02 {
   margin-left: 0;
   width: 100%;
-  flex-direction: column; /*flex-direction: columnを設定すると、再び縦に並ぶ*/
-}
+  flex-direction: column;
 
-/*　タブレット　560〜959px　*/
+/*　size 560〜959px
 @media all and (max-width: 959px) {
  .container {
    display: flex;
    flex-direction: column;
    flex: 1 0 auto;
-/*    width: 60%;*//*959px ÷ max-width(1600px)=0.59993*/
    height: auto;
  }
 
@@ -363,7 +377,7 @@ footer {
  li.header_nav  {
    margin: 0;
    padding: 0;
-   flex-direction: column;/*縦型のナビリンクに変更*/
+   flex-direction: column;
  }
 
  button.drawer-toggle {
@@ -395,8 +409,6 @@ footer {
 .wrap_02 {
   margin-left: 0;
   width: 100%;
-  flex-direction: column; /*flex-direction: columnを設定すると、再び縦に並ぶ*/
+  flex-direction: column;
 }
-
-/*　PC　960px以上は、基本設定通り　*/
-/*  ▲▲▲  ここまでブレイクポイント設定  ▲▲▲  */
+======================================= */
