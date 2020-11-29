@@ -20,9 +20,7 @@ body {
 }
 
 .drawer_header {
-  display: block;
-  z-index: 1000;
-  padding: -10px;
+  display: none;
 }
 
 nav.top-nav {
@@ -216,6 +214,10 @@ footer {
 @media all and (max-width: 959px) {
  .top_header {
   display: none;
+}
+
+.drawer_header {
+  display: block;
 }
 
 /*　size undet　320pxy
