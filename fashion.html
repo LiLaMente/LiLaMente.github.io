@@ -54,10 +54,10 @@
 </div>
 <main role="main">
 <div class="containar">
-<div class="wrap_01" id="viewer">
-      <a href="#1"><img class="resizeimage" src="fashion_images/main01.jpg"></a>
-      <a href="#2"><img class="resizeimage"  src="fashion_images/main02.jpg"></a>
-      <a href="#3"><img class="resizeimage"  src="fashion_images/main03.jpg"></a>
+<div class="viewer">
+      <a href="#"><img class="resizeimage" src="fashion_images/main01.jpg"></a>
+      <a href="#"><img class="resizeimage" src="fashion_images/main02.jpg"></a>
+      <a href="#"><img class="resizeimage" src="fashion_images/main03.jpg"></a>
 </div>
 </div>
 <div class="containar">
@@ -76,15 +76,12 @@
  </div>
 </main>
 
-<footer>
-  <p>Copyright <span class="fa fa-copyright"></span> 2020 Li_La Rights Reserved.</p>
-</footer>
-
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script>
 $(function(){
     $(window).load(function(){
         var setElm = $('.viewer'),
-        setMaxWidth = 1600,
+        setMaxWidth = 1580,
         setMinWidth = 320,
         fadeSpeed = 1500,
         switchDelay = 5000,
