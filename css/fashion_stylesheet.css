@@ -165,7 +165,6 @@ li a:hover {
 }
 
 .wrap_01 {
-  margin: 0 auto;
   width: 100%;
 
 }
@@ -218,6 +217,8 @@ footer {
 
 .drawer_header {
   display: block;
+  position: relative;
+  z-index: 10;
 }
 
 /*　size undet　320pxy
