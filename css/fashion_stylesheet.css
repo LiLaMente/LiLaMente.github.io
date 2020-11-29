@@ -21,10 +21,7 @@ body {
 
 .drawer_header {
   display: block;
-<<<<<<< HEAD
   z-index: 1000;
-=======
->>>>>>> 279bbffd02dd81769c066905ade312dac465feca
   padding: -10px;
 }
 
