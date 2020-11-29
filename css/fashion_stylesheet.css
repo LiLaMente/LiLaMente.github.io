@@ -27,7 +27,7 @@ nav.top-nav {
 margin: 0 auto;
 display: block;
 z-index: 1000;
-padding: 0;
+padding-top: 10px;
 width: 100%;
 top: 0;
 }
