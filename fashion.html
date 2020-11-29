@@ -55,9 +55,11 @@
 <main role="main">
 <div class="containar">
 <div class="viewer">
-      <a href="#"><img class="resizeimage" src="fashion_images/main01.jpg"></a>
-      <a href="#"><img class="resizeimage" src="fashion_images/main02.jpg"></a>
-      <a href="#"><img class="resizeimage" src="fashion_images/main03.jpg"></a>
+		<ul>
+      <li><a href="#"><img class="resizeimage" src="fashion_images/main01.jpg"></a></li>
+      <li><a href="#"><img class="resizeimage" src="fashion_images/main02.jpg"></a></li>
+      <li><a href="#"><img class="resizeimage" src="fashion_images/main03.jpg"></a></li>
+    </ul>
 </div>
 </div>
 <div class="containar">
@@ -76,17 +78,26 @@
  </div>
 </main>
 
+<script src="drawer.min.js"></script>
+<script>
+$(document).ready(function() {
+$('.drawer').drawer();
+});
+</script>
+
+
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script>
 $(function(){
     $(window).load(function(){
         var setElm = $('.viewer'),
-        setMaxWidth = 1580,
-        setMinWidth = 320,
+        setMaxWidth = 1580
+        ,
+        setMinWidth = 710,
         fadeSpeed = 1500,
         switchDelay = 5000,
-        sideNavi = 'off', // 'on' or 'off'
-        sideHide = 'hide', // 'hide' or 'show'
+        sideNavi = 'on', // 'on' or 'off'
+        sideHide = 'show', // 'hide' or 'show'
         naviOpc = 0.5;
 
         setElm.each(function(){
@@ -196,14 +207,6 @@ $(function(){
     });
 });
 </script>
-
-<script src="drawer.min.js"></script>
-<script>
-$(document).ready(function() {
-$('.drawer').drawer();
-});
-</script>
-
 
 </body>
 </html>
