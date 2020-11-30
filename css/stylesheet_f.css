@@ -257,7 +257,7 @@ font-size: 24px;
   padding-top: 20px;
   width: 50%;
 }
-
+}
 /* =======================================
     under 560px =  top_header off
 ======================================= */
@@ -318,7 +318,7 @@ font-size: 18px;
   padding-top: 20px;
   width: 50%;
 }
-
+}
 
 /* =======================================
     under 375x =  top_header off
@@ -360,4 +360,5 @@ ul#slide_min {
   margin: 0 auto;
   padding: 20px;
   width: 70%;
+}
 }
