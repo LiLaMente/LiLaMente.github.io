@@ -18,7 +18,7 @@ body {
   max-width: 1600px;
 }
 
-ul#slide {
+#slide {
 width: 1600px;
 height: 710px;
 margin:0 auto;
@@ -26,14 +26,14 @@ display: block;
 position: relative;
 }
 
-ul#slide img {
+#slide img {
 position:absolute;
 left: 0;
 top:0;
 }
 
-ul#slide_min {
-  display: none;
+#slide_min {
+display: none;
 }
 
 .drawer_header {
@@ -227,11 +227,11 @@ margin: 0 auto;
 display: flex;
 }
 
-ul#slide {
+#slide {
   display: block;
 }
 
-ul#slide_min {
+#slide_min {
   display: none;
 }
 
@@ -282,11 +282,12 @@ font-size: 14px;
 font-weight: bold;
 }
 
-ul#slide {
-  display: block;
+#slide {
+  display: flex;
+  width:100%;
 }
 
-ul#slide_min {
+#slide_min {
   display: none;
 }
 
