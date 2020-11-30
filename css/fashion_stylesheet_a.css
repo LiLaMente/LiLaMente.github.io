@@ -13,35 +13,35 @@ a{
 }
 
 body {
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   max-width: 1600px;
-  margin: 0 auto;
 }
 
-.drawer_header {
-  display: none;
+#slide {
+max-width: 1600px;
+height: 710px;
+margin:0 auto;
+position: relative;
 }
 
-nav.top-nav {
-margin: 0 auto;
-display: block;
-z-index: 1000;
-padding-top: 10px;
-width: 100%;
-top: 0;
+#slide img {
+position:absolute;
+left:0;
+top:0;
 }
 
-ul.top-menu {
-display: flex;
-width: 100%;
+ul {
+ padding-top: 25px;
+ display: flex;
+ flex-direction: row;
 }
 
 li {
 margin: 0 auto;
 display: flex;
 flex-direction: row;
-z-index: -1;
 font-family: "Bodoni MT", "Didot", "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
 letter-spacing: 1px;
 font-size: 18px;
@@ -56,77 +56,32 @@ align-items: center;
 }
 
 #top-brand {
-margin: 0 auto;
+margin: -15px auto;
 font-size: 29.124px;
 display: flex;
 justify-content: center;
 align-items: center;
 }
 
+.drawer_header {
+  display: none;
+}
+
+.viewer {
+  positon: relative;
+}
+
 img.resizeimage {
   width: 100%;
 }
 
-/* .viewer
-------------------------- */
-.viewer {
-    margin: 0 auto;
-    width: 100%;
-    position: relative;
-    overflow: hidden;
-}
-.viewer ul {
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-}
-.viewer ul li {
-    top: 0;
-    left: 0;
-    width: 100%;
-    position: absolute;
-}
-.viewer ul li img {
-    width: 100%;
-}
-
-/* sideNavi
-------------------------- */
-.viewer .btnPrev,
-.viewer .btnNext {
-    margin-top: -25px;
-    top: 50%;
-    width: 50px;
-    height: 50px;
-    position: absolute;
-    z-index: 101;
-}
-.viewer .btnPrev {
-    left: 10px;
-}
-.viewer .btnNext {
-    right: 10px;
-}
-
-
-/* =======================================
-    ClearFixElements
-======================================= */
-.viewer ul:after {
-    content: ".";
-    height: 0;
-    clear: both;
-    display: block;
-    visibility: hidden;
-}
-
-.viewer ul {
-    display: inline-block;
-    overflow: hidden;
+img.bottom {
+  padding-top: 40px;
+  padding-bottom: 10px;
 }
 
 p {
-  font-family: "Bodoni MT", "Didot", "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+  font-family: Bodoni MT", "Didot", "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
   font-size: 14px;
   font-style: normal;
   font-variant: normal;
@@ -153,10 +108,16 @@ p {
   }
 
 .container {
+  margin: 0 auto;
   display: flex;
   flex-direction: row;
   width: 100%;
-  flex: 1 0 auto;
+}
+
+ul {
+ padding-top: 25px;
+ display: flex;
+ flex-direction: row;
 }
 
 li a:hover {
@@ -198,19 +159,23 @@ footer {
 }
 
 /* =======================================
-    BreakPoint MediaQuery
+    BreakPoint
 ======================================= */
 
 /* =======================================
     PC over 960px =  top_header on
-======================================= */
-
-
-/* =======================================
-    under 960px =  top_header off
+      under 960px =  top_header off
 ======================================= */
 
 @media all and (max-width: 959px) {
+  .containar {
+    margin: 0 auto;
+  }
+
+  .box_01 {
+    margin: 0 auto;
+  }
+
  .top_header {
   display: none;
 }
@@ -219,6 +184,50 @@ footer {
   display: block;
   position: relative;
   z-index: 2000;
+}
+
+button.drawer-toggle {
+height: 50px;
+}
+
+.drawer-default li a {
+display: absolute;
+}
+
+.drawer-hamburger {
+  width: 2em;
+}
+
+.drawer-hamburger-icon,
+.drawer-hamburger-icon:after,
+.drawer-hamburger-icon:before {
+  background-color: #999;
+}
+
+.drawer-nav {
+    background: #fff;
+    width: 180px;
+    opacity: 0.9;
+}
+
+.wrap_02 {
+  padding-top: 60px;
+  display: flex;display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.box_a {
+  margin: 0 auto;
+  width: 85%;
+
+}
+
+.box_b {
+  margin-left:-200px;
+  padding-top: 20px;
+  width: 50%;
 }
 
 /*　size undet　320pxy

@@ -1,0 +1,427 @@
+/*  ▼▼▼  ここから  ▼▼▼  */
+@charset "UTF-8";
+@import "https://fonts.googleapis.com/earlyaccess/notosansjapanese.css";
+
+
+* {
+  box-sizing: border-box;
+}
+
+a{
+  color: #666;
+  text-decoration: none;
+}
+
+body {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  max-width: 1600px;
+}
+
+#slide {
+max-width: 1600px;
+height: 710px;
+margin:0 auto;
+position: relative;
+}
+
+#slide img {
+position:absolute;
+left:0;
+top:0;
+}
+
+ul {
+ padding-top: 25px;
+ display: flex;
+ flex-direction: row;
+}
+
+li {
+margin: 0 auto;
+display: flex;
+flex-direction: row;
+font-family: "Bodoni MT", "Didot", "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+letter-spacing: 1px;
+font-size: 18px;
+font-weight: bold;
+}
+
+li.top-menu-item {
+margin: 0 auto;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+#top-brand {
+margin: -15px auto;
+font-size: 29.124px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.drawer_header {
+  display: none;
+}
+
+.viewer {
+  positon: relative;
+}
+
+img.resizeimage {
+  width: 100%;
+}
+
+img.bottom {
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
+
+p {
+  font-family: Bodoni MT", "Didot", "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 20px;
+  }
+
+ blockquote {
+   font-family: "Bodoni MT", "Didot", "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+   font-size: 21px;
+   font-style: normal;
+   font-variant: normal;
+   font-weight: 400;
+   line-height: 30px;
+   }
+
+ pre {
+   font-family: "Bodoni MT", "Didot", "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+   font-size: 13px;
+   font-style: normal;
+   font-variant: normal;
+   font-weight: 400;
+   line-height: 18.5714px;
+  }
+
+.container {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+ul {
+ padding-top: 25px;
+ display: flex;
+ flex-direction: row;
+}
+
+li a:hover {
+  text-decoration: none;
+  opacity: 0.4;
+}
+
+.wrap_01 {
+  width: 100%;
+
+}
+
+.wrap_02 {
+  padding-top: 60px;
+  display: flex;
+}
+
+.box_a {
+  padding-top: 60px;
+  padding-left: 60px;
+}
+
+.box_b {
+  padding-top: 60px;
+  padding-left: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+}
+
+footer {
+  color: #000;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+/* =======================================
+    BreakPoint
+======================================= */
+
+/* =======================================
+    PC over 960px =  top_header on
+      under 960px =  top_header off
+======================================= */
+
+@media all and (max-width: 959px) {
+  .containar {
+    margin: 0 auto;
+  }
+
+  .box_01 {
+    margin: 0 auto;
+  }
+
+ .top_header {
+  display: none;
+}
+
+.drawer_header {
+  display: block;
+  position: relative;
+  z-index: 2000;
+}
+
+button.drawer-toggle {
+height: 50px;
+}
+
+.drawer-default li a {
+display: absolute;
+}
+
+.drawer-hamburger {
+  width: 2em;
+}
+
+.drawer-hamburger-icon,
+.drawer-hamburger-icon:after,
+.drawer-hamburger-icon:before {
+  background-color: #999;
+}
+
+.drawer-nav {
+    background: #fff;
+    width: 180px;
+    opacity: 0.9;
+}
+
+.wrap_02 {
+  padding-top: 60px;
+  display: flex;display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.box_a {
+  margin: 0 auto;
+  width: 85%;
+
+}
+
+.box_b {
+  margin-left:-200px;
+  padding-top: 20px;
+  width: 50%;
+}
+
+/*　size undet　320pxy
+@media all and (max-width: 319px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+    height: auto;
+  }
+
+  .top_header {
+    display: none;
+  }
+
+  .drawer_header {
+    display: flex;
+  }
+
+  ul {
+    width: 100vw;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    display: inline-block;
+}
+
+  li.header_nav  {
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+  }
+
+  button.drawer-toggle {
+  height:50px;
+  }
+  .drawer-default li a {
+  display: block;
+  }
+
+  .drawer-hamburger {
+    width: 2em;
+  }
+
+  .drawer-hamburger-icon,
+  .drawer-hamburger-icon:after,
+  .drawer-hamburger-icon:before {
+    background-color: #999;
+  }
+
+  .drawer-nav {
+      background: #fff;
+      opacity: 0.8;
+  }
+
+
+  img.resizeimage {
+    width: 100vw;
+  }
+}
+
+.wrap_02 {
+  margin-left: 0;
+  width: 100%;
+  flex-direction: column;
+}
+
+/*　size 320〜559px
+@media all and (max-width: 559px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+    height: auto;
+    font-size: 35%;
+  }
+
+  .top_header {
+    display: none;
+  }
+
+  .drawer_header {
+    display: flex;
+  }
+
+  ul {
+    width: 100vw;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    display: inline-block;
+}
+
+  li.header_nav  {
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+  }
+
+  button.drawer-toggle {
+  height:50px;
+  }
+  .drawer-default li a {
+  display: block;
+  }
+
+  .drawer-hamburger {
+    width: 2em;
+  }
+
+  .drawer-hamburger-icon,
+  .drawer-hamburger-icon:after,
+  .drawer-hamburger-icon:before {
+    background-color: #999;
+  }
+
+  .drawer-nav {
+      background: #fff;
+      opacity: 0.8;
+  }
+
+   img.resizeimage {
+    width: 100vw;
+  }
+}
+
+.wrap_02 {
+  margin-left: 0;
+  width: 100%;
+  flex-direction: column;
+
+/*　size 560〜959px
+@media all and (max-width: 959px) {
+ .container {
+   display: flex;
+   flex-direction: column;
+   flex: 1 0 auto;
+   height: auto;
+ }
+
+ .top_header {
+   display: none;
+ }
+
+ .drawer_header {
+   display: flex;
+ }
+
+ ul {
+   width: 100vw;
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   background-color: #ffffff;
+   display: inline-block;
+}
+
+ li.header_nav  {
+   margin: 0;
+   padding: 0;
+   flex-direction: column;
+ }
+
+ button.drawer-toggle {
+ height:50px;
+ }
+ .drawer-default li a {
+ display: block;
+ }
+
+ .drawer-hamburger {
+   width: 2em;
+ }
+
+ .drawer-hamburger-icon,
+ .drawer-hamburger-icon:after,
+ .drawer-hamburger-icon:before {
+   background-color: #999;
+ }
+
+ .drawer-nav {
+     background: #fff;
+     opacity: 0.8;
+ }
+
+ img.resizeimage {
+   width: 100vw;
+}
+
+.wrap_02 {
+  margin-left: 0;
+  width: 100%;
+  flex-direction: column;
+}
+======================================= */
