@@ -98,6 +98,10 @@ font-size: 29.124px;
   positon: relative;
 }
 
+img.resizeimage {
+  width: 100%;
+}
+
 img.bottom {
   padding-top: 40px;
   padding-bottom: 10px;
