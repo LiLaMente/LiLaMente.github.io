@@ -70,14 +70,38 @@ height: 10px;
     width: 180px;
     opacity: 0.9;
 }
+.viewer {
+    margin: 0 auto;
+    width: 1600px;
+    height: 710px;
+    text-align: left;
+    overflow: hidden;
+}
+
+.viewer ul {
+    width: 1600px;
+    height: 710px;
+    text-align: left;
+    overflow: hidden;
+    position: relative;
+}
+
+.viewer ul li {
+    top: 0;
+    left: 0;
+    width: 1600px;
+    height: 710px;
+    display: none;
+    position: absolute;
+}
 
 li {
 margin: 0 auto;
 display: flex;
 flex-direction: row;
 font-family: "Bodoni MT", "Didot", "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
-letter-spacing: 1px;
-font-size: 18px;
+letter-spacing: 1;
+font-size: 12px;
 font-weight: bold;
 }
 
@@ -144,11 +168,6 @@ li a:hover {
   opacity: 0.4;
 }
 
-.wrap_01 {
-  width: 100%;
-
-}
-
 .wrap_02 {
   padding-top: 60px;
   display: flex;
@@ -189,7 +208,49 @@ footer {
     under 750px =  top_header off
 ======================================= */
 
-@media all and (max-width: 959px) {
+@media all and (max-width: 749px) {
+li {
+margin: 0 auto;
+display: flex;
+flex-direction: row;
+font-family: "Bodoni MT", "Didot", "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+font-size: 11.125px;
+font-weight: bold;
+}
+
+li.top-menu-item {
+margin: 0 auto;
+display: flex;
+}
+
+#top-brand {
+font-size: 24px;
+}
+
+.wrap_02 {
+  padding-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.box_a {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.box_b {
+  margin-left:-200px;
+  padding-top: 20px;
+  width: 50%;
+}
+
+/* =======================================
+    under 670px =  top_header off
+======================================= */
+
+@media all and (max-width: 669px) {
  .top_header {
   display: none;
 }
@@ -199,9 +260,28 @@ footer {
   z-index: 2000;
 }
 
+li {
+margin: 0 auto;
+display: flex;
+flex-direction: row;
+font-family: "Bodoni MT", "Didot", "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+letter-spacing: 1px;
+font-size: 14px;
+font-weight: bold;
+}
+
+li.top-menu-item {
+margin: 0 auto;
+display: flex;
+}
+
+#top-brand {
+font-size: 18px;
+}
+
 .wrap_02 {
   padding-top: 60px;
-  display: flex;display: flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -209,8 +289,7 @@ footer {
 
 .box_a {
   margin: 0 auto;
-  width: 85%;
-
+  width: 100%;
 }
 
 .box_b {
