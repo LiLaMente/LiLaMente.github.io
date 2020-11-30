@@ -320,10 +320,10 @@ font-size: 18px;
 
 
 /* =======================================
-    under 32px =  top_header off
+    under 375x =  top_header off
 ======================================= */
 
-@media all and (max-width: 319px) {
+@media all and (max-width: 374px) {
  .top_header {
   display: none;
 }
