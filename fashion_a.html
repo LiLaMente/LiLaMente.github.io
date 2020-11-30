@@ -21,6 +21,23 @@
 </head>
 
 <body class="drawer drawer--left drawer-close" style="zoom: 1; overflow: auto;">
+
+<div class="top_header">
+  <header>
+    <nav class="top-nav">
+			<ul class="top-menu">
+        <li><a class="top-menu-item" href="#">NEW IN</a></li>
+        <li><a class="top-menu-item" href="#">CLLECTION</a></li>
+        <li><a class="top-menu-item" href="#">LOOK BOOK</a></li>
+        <li><a class="top-menu" id="top-brand" href="#">LAMINA</a></li>
+        <li><a class="top-menu-item" href="#">OUR STORY</a></li>
+        <li><a class="top-menu-item" href="#">NEWS</a></li>
+        <li><a class="top-menu-item" href="#">STORYS</a></li>
+    </ul>
+   </nav>
+ </header>
+</div>
+
 <div class="drawer_header">
 <header role="banner">
 		<button type="button" class="drawer-toggle drawer-hamburger">
@@ -40,27 +57,13 @@
    </nav>
  </header>
 </div>
-<div class="top_header">
-<header>
-    <nav class="top-nav">
-			<ul class="top-menu">
-        <li><a class="top-menu-item" href="#">NEW IN</a></li>
-        <li><a class="top-menu-item" href="#">CLLECTION</a></li>
-        <li><a class="top-menu-item" href="#">LOOK BOOK</a></li>
-        <li><a class="top-menu" id="top-brand" href="#">LAMINA</a></li>
-        <li><a class="top-menu-item" href="#">OUR STORY</a></li>
-        <li><a class="top-menu-item" href="#">NEWS</a></li>
-        <li><a class="top-menu-item" href="#">STORYS</a></li>
-    </ul>
-   </nav>
- </header>
-</div>
+
 <main role="main">
 <div class="viewer">
 		<ul>
-      <li><a href="#"><img class="resizeimage" src="fashion_images/main01.jpg"></a></li>
-      <li><a href="#"><img class="resizeimage" src="fashion_images/main02.jpg"></a></li>
-      <li><a href="#"><img class="resizeimage" src="fashion_images/main03.jpg"></a></li>
+      <li><a href="#"><img id="slide" src="fashion_images/main01.jpg"></a></li>
+      <li><a href="#"><img id="slide" src="fashion_images/main02.jpg"></a></li>
+      <li><a href="#"><img id="slide" src="fashion_images/main03.jpg"></a></li>
     </ul>
 </div>
 <div class="containar">
@@ -92,10 +95,10 @@ $('.drawer').drawer();
 $(function(){
     $(window).load(function(){
         var setElm = $('.viewer'),
-        setMaxWidth = 1580,
+        setMaxWidth = 1600,
         setMinWidth = 710,
-        fadeSpeed = 1500,
-        switchDelay = 5000,
+        fadeSpeed = 6000,
+        switchDelay = 1000,
         sideNavi = 'off', // 'on' or 'off'
         sideHide = 'hide', // 'hide' or 'show'
         naviOpc = 0.5;
@@ -117,10 +120,10 @@ $(function(){
             timer();
 
             function slideNext(){
-                findUl.find('li:first-child').not(':animated').animate({opacity:'0'},fadeSpeed).next('li').css({zIndex:'100'}).animate({opacity:'1'},fadeSpeed).end().appendTo(findUl).css({zIndex:'99'});
+                findUl.find('li:first-child').not(':animated').animate({opacity:'0.5'},fadeSpeed).next('li').css({zIndex:'100'}).animate({opacity:'1'},fadeSpeed).end().appendTo(findUl).css({zIndex:'99'});
             }
             function slidePrev(){
-                findUl.find('li:first-child').not(':animated').css({zIndex:'99'}).animate({opacity:'0'},fadeSpeed).siblings('li:last-child').css({zIndex:'100'}).animate({opacity:'1'},fadeSpeed).prependTo(findUl);
+                findUl.find('li:first-child').not(':animated').css({zIndex:'99'}).animate({opacity:'0.5'},fadeSpeed).siblings('li:last-child').css({zIndex:'100'}).animate({opacity:'1'},fadeSpeed).prependTo(findUl);
             }
             targetObj.css({width:setMaxWidth,display:'block'});
 
