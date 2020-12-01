@@ -99,6 +99,7 @@ height: 10px;
 
 li {
 margin: 0 auto;
+margin-right: 36px;
 display: flex;
 flex-direction: row;
 font-family: "Bodoni MT", "Didot", "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
@@ -213,6 +214,7 @@ footer {
 @media all and (max-width: 749px) {
 li {
 margin: 0 auto;
+margin-right: 18px;
 display: flex;
 flex-direction: row;
 font-family: "Bodoni MT", "Didot", "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
@@ -325,13 +327,13 @@ font-size: 18px;
 
 .box_a {
   margin: 0 auto;
-  padding-top: 10px;
+  padding-top: 5px;
   width: 100%;
 }
 
 .box_b {
   margin: 0 auto;
-  padding: 10px;
+  padding: 5px;
   width: 70%;
 }
 }
