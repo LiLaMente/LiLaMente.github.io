@@ -341,14 +341,14 @@ font-size: 18px;
   align-items: center;
 }
 
+ul#slide_min {
+  display: block;
+}
 
 ul#slide {
 display: none;
 }
 
-ul#slide_min {
-  display: block;
-}
 
 .box_a {
   margin: 0 auto;
