@@ -110,6 +110,8 @@ font-weight: bold;
 li.top-menu-item {
 margin: 0 auto;
 display: flex;
+justify-content: center;
+align-items: center;
 }
 
 #top-brand {
@@ -172,13 +174,13 @@ li a:hover {
 }
 
 .box_a {
-  padding-top: 30px;
+  padding-top: 15px;
   padding-left: 30px;
   width: 55%;
 }
 
 .box_b {
-  padding-top: 30px;
+  padding-top: 15px;
   padding-left: 30px;
   width: 35%;
   display: flex;
@@ -228,7 +230,7 @@ font-size: 24px;
 }
 
 .wrap_02 {
-  padding-top: 60px;
+  padding-top: 15px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -242,7 +244,7 @@ font-size: 24px;
 
 .box_b {
   margin-left:-200px;
-  padding-top: 20px;
+  padding-top: 15px;
   width: 50%;
 }
 }
@@ -280,7 +282,7 @@ font-size: 18px;
 }
 
 .wrap_02 {
-  padding-top: 60px;
+  padding-top: 15px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -294,7 +296,7 @@ font-size: 18px;
 
 .box_b {
   margin-left:-200px;
-  padding-top: 20px;
+  padding-top: 15px;
   width: 50%;
 }
 }
@@ -323,13 +325,13 @@ font-size: 18px;
 
 .box_a {
   margin: 0 auto;
-  margin-top: -60px;
+  padding-top: 10px;
   width: 100%;
 }
 
 .box_b {
   margin: 0 auto;
-  padding: 20px;
+  padding: 10px;
   width: 70%;
 }
 }
