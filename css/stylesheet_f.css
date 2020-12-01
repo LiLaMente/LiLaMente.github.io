@@ -32,10 +32,6 @@ left: 0;
 top:0;
 }
 
-#slide_min {
-display: none;
-}
-
 .drawer_header {
  display: flex;
 }
@@ -227,14 +223,6 @@ margin: 0 auto;
 display: flex;
 }
 
-#slide {
-  display: block;
-}
-
-#slide_min {
-  display: none;
-}
-
 #top-brand {
 font-size: 24px;
 }
@@ -280,15 +268,6 @@ font-family: "Bodoni MT", "Didot", "Didot LT STD", "Hoefler Text", Garamond, "Ti
 letter-spacing: 1px;
 font-size: 14px;
 font-weight: bold;
-}
-
-#slide {
-  display: flex;
-  width:100%;
-}
-
-#slide_min {
-  display: none;
 }
 
 li.top-menu-item {
@@ -340,15 +319,6 @@ font-size: 18px;
   justify-content: center;
   align-items: center;
 }
-
-ul#slide_min {
-  display: block;
-}
-
-ul#slide {
-display: none;
-}
-
 
 .box_a {
   margin: 0 auto;
