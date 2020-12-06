@@ -1,0 +1,120 @@
+@charset "UTF-8";
+@import "https://fonts.googleapis.com/earlyaccess/notosansjapanese.css";
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*:before, *:after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: 'Work Sans', Arial, "Hiragino Kaku Gothic Pro W3", Meiryo, sans-serif;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#mom_layer{
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+#kids_layer{
+  position: fixed;
+  margin: 0 auto;
+  width: 250px;
+  height: auto;
+  top: 35%;
+  left: 35%;
+  background-color: #9DFF00;
+  border-radius: 10px;
+  text-align: center;
+  list-style: none;
+  z-index: 2;
+}
+
+.fa-times {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  color: rgba(30, 22, 54, 0.4);
+  cursor: pointer;
+}
+
+a {
+  -webkit-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+  -moz-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+  -ms-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+  -o-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+  transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+  display: block;
+  margin: 20px auto;
+  max-width: 180px;
+  text-decoration: none;
+  border-radius: 4px;
+  padding: 10px 15px;
+}
+
+
+a.btn_close {
+  margin: 0 auto;
+}
+
+a.btn_close:hover {
+  color: rgba(255, 255, 255, 0.85);
+}
+
+
+
+
+a.btn0 {
+  color: rgba(30, 22, 54, 0.6);
+  box-shadow: rgba(30, 22, 54, 0.4) 0 0px 0px 2px inset;
+}
+
+a.btn0:hover {
+  color: rgba(255, 255, 255, 0.85);
+  box-shadow: rgba(0, 0, 0, 0.7) 0 0px 0px 40px inset;
+}
+
+
+
+
+/*[#FF69AF] 255, 105, 175*/
+/*[#9DFF00] 157, 255, 0*/
+/*[#5729CE] 87, 41, 206*/
+
+
+a.btn1 {
+  color: rgba(0, 0, 0, 0.8);
+  box-shadow: rgba(255, 105, 175, 0.4) 0 0px 0px 2px inset;
+}
+
+a.btn1:hover {
+  color: rgba(255, 255, 255, 1);
+  box-shadow: rgba(255, 105, 175, 0.7) 0 0px 0px 40px inset;
+}
+
+a.btn2 {
+  color: rgba(0, 0, 0, 0.8);
+  box-shadow: rgba(157, 255, 0, 0.8) 0 0px 0px 2px inset;
+}
+
+a.btn2:hover {
+  color: rgba(255, 255, 255, 1);
+  box-shadow: rgba(157, 255, 0, 1) 0 0px 0px 40px inset;
+}
+
+a.btn3 {
+  color: rgba(0, 0, 0, 0.8);
+  box-shadow: rgba(87, 41, 206, 0.4) 0 0px 0px 2px inset;
+}
+
+a.btn3:hover {
+  color: rgba(255, 255, 255, 1);
+  box-shadow: rgba(87, 41, 206, 0.7) 0 0px 0px 40px inset;
+}
