@@ -44,8 +44,8 @@ ul {
   text-align: center;
   list-style: none;
   z-index: 2;
-  top: 15%;
-  left:25%;
+  top: 10%;
+  left:10%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
