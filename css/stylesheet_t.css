@@ -16,7 +16,6 @@ body {
   font-family: 'Work Sans', Arial, "Hiragino Kaku Gothic Pro W3", Meiryo, sans-serif;
   text-align: center;
   margin: 0 auto;
-  background-color: rgba(255, 255, 255, 0.4);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -29,8 +28,13 @@ ul {
 
 .mom_layer{
   margin: 0 auto;
+  position: relative;
   width: 100%;
-
+  height:1000px;
+  background-color: #000;
+  opacity: 0.8;
+  padding: 25%;
+  z-index: 1;
 }
 
 .kids_layer{
@@ -43,12 +47,10 @@ ul {
   border-radius: 10px;
   text-align: center;
   list-style: none;
-  z-index: 2;
-  top: 10%;
-  left:10%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  z-index: 2;
 }
 
 .fa-times {
