@@ -67,8 +67,9 @@ li a{
 }
 
 .drawer-nav {
+    font-family: 'Work Sans', Arial, "Hiragino Kaku Gothic Pro W3", Meiryo, sans-serif;
     background: #fff;
-    width: 180px;
+    width: 250px;
     opacity: 0.8;
 }
 
