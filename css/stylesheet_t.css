@@ -7,11 +7,13 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 *:before, *:after {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
+
 body {
   font-family: 'Work Sans', Arial, "Hiragino Kaku Gothic Pro W3", Meiryo, sans-serif;
   text-align: center;
@@ -20,6 +22,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: #000;
 }
 
 ul {
@@ -30,11 +33,21 @@ ul {
   margin: 0 auto;
   position: relative;
   width: 100%;
+  padding: 5%;
   opacity: 0.8;
+}
+
+.kids_layer{
+  margin: 0 auto;
+  position: relative;
+  background-color: #9DFF00;
+  width: 65%;
+  border-radius: 10px;
   padding: 5%;
   z-index: 1;
 }
 
+/* old
 .kids_layer{
   position: fixed;
   margin: 0 auto;
@@ -50,6 +63,7 @@ ul {
   align-items: center;
   z-index: 2;
 }
+*/
 
 .fa-times {
   position: absolute;
@@ -100,16 +114,11 @@ a.btn0:hover {
   box-shadow: rgba(0, 0, 0, 0.7) 0 0px 0px 40px inset;
 }
 
-
-a.btn1 {
-  color: rgba(255, 255, 255, 0.85);
-  box-shadow: rgba(0, 0, 0, 0.7) 0 0px 0px 40px inset;
+.btn1 {
+  color: rgba(30, 22, 54, 0.6);
+  box-shadow: rgba(30, 22, 54, 0.4) 0 0px 0px 2px inset;
 }
 
-a.btn0:hover {
-  color: rgba(255, 255, 255, 0.85);
-  box-shadow: rgba(0, 0, 0, 0.7) 0 0px 0px 40px inset;
-}
 
 /*[#FF69AF] 255, 105, 175*/
 /*[#9DFF00] 157, 255, 0*/
