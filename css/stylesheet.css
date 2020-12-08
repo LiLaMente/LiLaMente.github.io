@@ -48,12 +48,37 @@ button.drawer-toggle {
 }
 
 li a{
+  margin: 0 auto;
   font-weight: bold;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-left: 5%;
   color: #333;
 }
-.drawer-default li a {
-  display: absolute;
 
+.drawer-default li a {
+}
+
+a:hover{
+  opacity: 0.5;
+}
+
+#country {
+  padding-left: 30%;
+  font-weight: bold;
+  background-color: #9DFF00;
+  border-radius: 8px;
+  padding: 3%;
+}
+
+#country:hover {
+  background-color: #9DFF00;
+  opacity: 0.8;
+}
+
+#photo_movie {
+  margin: 0 auto;
+  padding-left: 10%;
 }
 
 .drawer-hamburger {
@@ -88,6 +113,16 @@ li a{
 
 .fa {
   margin-right: 5px;
+}
+
+a.btn0 {
+  color: rgba(30, 22, 54, 0.6);
+  box-shadow: rgba(30, 22, 54, 0.4) 0 0px 0px 2px inset;
+}
+
+a.btn0:hover {
+  color: rgba(255, 255, 255, 0.85);
+  box-shadow: rgba(0, 0, 0, 0.7) 0 0px 0px 40px inset;
 }
 
 .content-wrapper {
