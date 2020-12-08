@@ -57,6 +57,7 @@ li a{
 }
 
 .drawer-default li a {
+
 }
 
 a:hover{
@@ -64,15 +65,15 @@ a:hover{
 }
 
 #country {
-  padding-left: 30%;
+  padding: 5%;
   font-weight: bold;
   background-color: #9DFF00;
-  border-radius: 8px;
-  padding: 3%;
+  border-radius: 5px;
+  line-height: 2.5em;
+  text-align: center;
 }
 
 #country:hover {
-  background-color: #9DFF00;
   opacity: 0.8;
 }
 
@@ -94,8 +95,12 @@ a:hover{
 .drawer-nav {
     font-family: 'Work Sans', Arial, "Hiragino Kaku Gothic Pro W3", Meiryo, sans-serif;
     background: #fff;
-    width: 250px;
+    width: 180px;
     opacity: 0.8;
+}
+
+.drawer--left.drawer-open .drawer-hamburger {
+    left: 175px;
 }
 
 .btn {
