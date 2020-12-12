@@ -1,29 +1,95 @@
-
 <!DOCTYPE html>
-<html class="no-js" lang="">
+<html>
 <head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Travel Memoies</title>
-<link rel="stylesheet" href="css/stylesheet_t.css">
-<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-<link href="https://fonts.googleapis.com/css?family=Work+Sans:200" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thailand 2019/11/09-13</title>
 
-<body>
-  <!-- modal window start -->
-  <div class="mom_layer">
-    <div class="kids_layer">
-    <ul>
-      <li><a class="btn_close" href="index_tt.html"><span class="fa fa-times"></span></a></li>
-      <li><a class="btn0" href="index_tt.html">Thailand</a></li>
-      <li><a class="text">▼ ----- coming soon ----- ▼</a></li>
-      <li><a class="btn1" href="#">Germany</a></li>
-      <li><a class="btn1" href="#">Japan</a></li>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+  <link rel="icon" type="image/x-icon" href="https://lilamente.github.io/images/favicon4.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+</head>
+
+<body class="drawer drawer--left">
+
+  <header role="banner">
+		<button type="button" class="drawer-toggle drawer-hamburger">
+      <span class="sr-only">toggle navigation</span>
+			<span class="drawer-hamburger-icon"></span>
+		</button>
+    <nav class="drawer-nav" role="navigation">
+			<ul class="drawer-menu">
+        <li class="drawer-brand"><a href="index.html">LiLaMente</a></li>
+<!--<li class="drawer-menu-item"><a href="index_tt.html"><span class="fa fa-home"></span>Home</a></li>-->
+        <li class="drawer-menu-item"><a id="country" href="index_gp.html"><span class="fa fa-image"></span>Germany</a></li>
+        <li class="drawer-menu-item"><a id="country" href="index_tp.html"><span class="fa fa-image"></span>Thailand</a></li>
+        <li class="drawer-menu-item"><a id="country" href="#"><span class="fa fa-image"></span>Japan</a></li>
+        <li class="drawer-menu-item"><a id="photo_movie" href="index_tm.html"><span class="fa fa-film"></span>Movie</a></li>
+
     </ul>
+   </nav>
+ </header>
+
+  <div class="top-wrapper">
+    <div class="container">
+      <h1>Travel Memories</h1>
+      <p>タイの幻想的なイーペン・コムローイ祭り</p>
+    </div>
   </div>
-</div>
-  <!-- modal window end -->
+  <div class="content-wrapper">
+    <div class="container">
+      <div class="heading">
+        <h2>Photo album</h2>
+      </div>
+        <div class="content">
+          <div class="content-icon">
+            <a href="index_tp.html#01"><img src="images/icon_1.jpg"></a>
+            <p>ワット・ポー</p>
+          </div>
+          <p class="text-contents">タイにはたくさんの寺院があり、国の歴史を感じられます。</p>
+        </div>
+        <div class="content">
+          <div class="content-icon">
+            <a href="index_tp.html#02"><img src="images/icon_2.jpg"></a>
+            <p>水上マーケット</p>
+          </div>
+          <p class="text-contents">活気のある市場では、水上でカヌーに乗ったり、現地の暮らしを垣間見ることができます。</p>
+        </div>
+        <div class="content">
+          <div class="content-icon">
+            <a href="index_tp.html#03"><img src="images/icon_3.jpg"></a>
+            <p>イーペン・コムローイ</p>
+          </div>
+          <p class="text-contents">年に一度、タイの各地で、大きなランタンを打ち上げるお祭りです。</p>
+        </div>
+        <div class="content">
+          <div class="content-icon">
+            <a href="index_tp.html#04"><img src="images/icon_4.jpg"></a>
+            <p>象乗り体験</p>
+          </div>
+          <p class="text-contents">オプショナルツアーでは、現地の観光スポットをいくつかセレクトできます。</p>
+        </div>
+      </div>
+      <div class="clear"></div>
+    </div>
+  </div>
+  <footer>
+    <div class="container">
+      <p>Copyright <span class="fa fa-copyright"></span> 2020 Li_La All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="drawer.min.js"></script>
+  <script>
+  $(document).ready(function() {
+  $('.drawer').drawer();
+  });
+  </script>
 
 </body>
 </html>

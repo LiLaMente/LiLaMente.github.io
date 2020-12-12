@@ -213,7 +213,8 @@ a:hover{
 }
 
 .heading h2 {
-  font-weight: normal;
+  color: #999;
+  font-weight: bold;
 }
 
 .content {
@@ -239,7 +240,7 @@ a:hover{
 }
 
 .content p {
-  color: #666;
+  color: #999;
   font-size: 15px;
   font-weight: bold;
   padding-top: 15px;
@@ -251,7 +252,7 @@ p.text-contents {
   display:inline-block;
   margin-top: auto;
   font-size: 13px;
-  color: #666;
+  color: #999;
 }
 
 .content-photo img {
