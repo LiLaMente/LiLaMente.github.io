@@ -301,7 +301,7 @@ footer {
   }
 }
 
-@media all and (max-width: 750px) {
+@media all and (max-width: 768px) {
   .top-wrapper h1 {
     font-size: 32px;
   }
@@ -320,7 +320,7 @@ footer {
 
 }
 
-@media all and (max-width: 670px) {
+@media all and (max-width: 684px) {
   nav ul {
   	display: flex;
   	flex-flow: row;
