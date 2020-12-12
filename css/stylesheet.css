@@ -11,9 +11,88 @@ a {
   text-decoration: none;
 }
 
+.modal-wrapper {
+  z-index: 999;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 60px 10px;
+  text-align: center
+}
+
+.modal-wrapper:not(:target) {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity .3s, visibility .3s;
+}
+
+.modal-wrapper:target {
+  opacity: 1;
+  visibility: visible;
+  transition: opacity .4s, visibility .4s;
+}
+
+.modal-wrapper::after {
+  display: inline-block;
+  height: 100%;
+  margin-left: -.05em;
+  vertical-align: middle;
+  content: ""
+}
+
+.modal-wrapper .modal-window {
+  box-sizing: border-box;
+  display: inline-block;
+  z-index: 20;
+  position: relative;
+  width: 70%;
+  max-width: 600px;
+  padding: 30px 30px 15px;
+  border-radius: 2px;
+  background: #fff;
+  box-shadow: 0 0 30px rgba(0, 0, 0, .6);
+  vertical-align: middle
+}
+
+.modal-wrapper .modal-window .modal-content {
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+.modal-overlay {
+  z-index: 10;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, .7)
+}
+
+.modal-wrapper .modal-close {
+  z-index: 20;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 35px;
+  color: #95979c!important;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 35px;
+  text-align: center;
+  text-decoration: none;
+  text-indent: 0
+}
+
+.modal-wrapper .modal-close:hover {
+  color: #2b2e38!important
+}
+
 .container {
   width: 100%;
-  padding: 0 15px;
+  padding: 0;
   margin: 0 auto;
 }
 
@@ -191,8 +270,8 @@ a.btn0:hover {
   border-radius: 10px;
   ransition-duration:0.5s;
   text-align: center;
-  height: 250px;
-  width: 250px;
+  height: 240px;
+  width: 240px;
   object-fit: cover;
 }
 
@@ -234,7 +313,10 @@ footer {
 @media all and (max-width: 1000px) {
   .content {
     width: 50%;
+    margin-left: 0;
+    margin-right: 0;
     margin-bottom: 50px;
+    padding: 0;
   }
 
   .content-wrapper {
@@ -250,6 +332,18 @@ footer {
 
   .heading h2 {
     font-size: 20px;
+  }
+
+  .content {
+    width: 50%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 50px;
+    padding: 0;
+  }
+
+  .clear {
+    clear:left;
   }
 
   .content-wrapper {
@@ -274,7 +368,6 @@ footer {
   .top-wrapper p {
     font-size: 14px;
   }
-
   .clear {
     clear:left;
   }
