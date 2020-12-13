@@ -109,8 +109,7 @@ a {
 }
 
 .container {
-  width: 100%;
-  padding: 0;
+  width: 98%;
   margin: 0 auto;
 }
 
@@ -197,32 +196,35 @@ a:hover{
 }
 
 .content-wrapper {
-  padding-top: 40px;
-  padding-bottom: 80px;
+  margin: 0 auto;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 60px;
   background-color: #f7f7f7;
-  text-align: center;
   height: auto;
 }
 
-.heading {
-  padding-top: 80px;
-  padding-bottom: 50px;
-  color: #5f5d60;
+.container {
+ position: relative;
+ width:90%;
+ padding-left: 30px;
 }
 
-.heading h2 {
-  color: #666;
-  font-weight: bold;
+.heading {
+  margin: 0 auto;
+  padding-top: 80px;
+  padding-bottom: 40px;
 }
 
 .content {
   margin:0 auto;
-  padding-bottom: 10px;
+  padding-bottom: 30px;
   overflow:hidden;
   cursor:pointer;
   float: left;
   height: auto;
-  width: 25%;
+  width: 24%;
+  padding-left: 10px;
 }
 
 .content-icon img {
@@ -257,9 +259,8 @@ p.text-contents {
   border-radius: 10px;
   ransition-duration: 0.5s;
   text-align: center;
-  height: 240px;
-  width: 240px;
-  object-fit: cover;
+  height: 200px;
+  width: 200px;
 }
 
 .content-movie {
@@ -269,6 +270,10 @@ p.text-contents {
   height: 500px;
   width: auto;
   object-fit: cover;
+}
+
+.clear {
+  clear: both;
 }
 
 .heading h3 {
@@ -289,19 +294,25 @@ footer p {
 footer {
   padding-top: 30px;
   padding-bottom: 20px;
+  width: 100%;
   background-color: #000000;
   text-align: center;
 }
 
-@media all and (max-width: 1000px) {
+@media all and (max-width: 900px) {
   .content {
     margin: 0 auto;
     width: 50%;
-    margin-bottom: 50px;
   }
+
+  p.text-contents {
+    width: 85%;
+    margin-top: -10px;
+    margin-bottom: 20px;
+ }
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 600px) {
   .top-wrapper h1 {
     font-size: 32px;
   }
@@ -312,23 +323,16 @@ footer {
 
   .content {
     width: 50%;
-    margin-left: 0;
-    margin-right: 0;
-    margin-bottom: 50px;
-    padding: 0;
   }
 
+  p.text-contents {
+    width: 85%;
+    margin-top: -10px;
+    margin-bottom: 20px;
+ }
 }
 
-@media all and (max-width: 684px) {
-  nav ul {
-  	display: flex;
-  	flex-flow: row;
-  	margin 0;
-    padding: 0;
-  	list-style-type: none;
-  }
-
+@media all and (max-width: 500px) {
  .top-wrapper h1 {
     font-size: 24px;
   }
@@ -341,4 +345,9 @@ footer {
     width: 100%;
   }
 
+  p.text-contents {
+    width: 65%;
+    margin-top: -10px;
+    margin-bottom: 20px;
+ }
 }
