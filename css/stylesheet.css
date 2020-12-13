@@ -110,8 +110,9 @@ a {
 
 .top-wrapper {
   padding: 180px 0 100px 0;
-  background-image: url(../images/top.jpg);
+  background-image: url(../images/top_m.jpg);
   background-size: cover;
+  width: 100%;
   color: white;
   text-align: center;
 }
@@ -327,6 +328,11 @@ footer {
 }
 
 @media all and (max-width: 500px) {
+  .top-wrapper {
+    background-image: url(../images/top_s.jpg);
+  }
+
+
  .top-wrapper h1 {
     font-size: 24px;
   }
