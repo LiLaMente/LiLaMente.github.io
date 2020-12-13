@@ -254,6 +254,7 @@ p.text-contents {
   text-align: center;
   height: 240px;
   width: 240px;
+  object-fit: cover;
 }
 
 .content-movie {
