@@ -161,7 +161,7 @@ a:hover{
   margin: 0;
   padding: 10px;
   font-weight: bold;
-  background-color: #9DFF00;
+  background-color: #05dfd7; /* #fff591 #a3f7bf #FA26A0 #9DFF00 */
   border-radius: 5px;
   line-height: 2em;
 }
@@ -170,6 +170,18 @@ a:hover{
   opacity: 0.8;
 }
 
+#movie {
+  margin: 0;
+  padding: 10px 20px 10px 20px;
+  font-weight: bold;
+  background-color: #a3f7bf;
+  border-radius: 5px;
+  line-height: 2em;
+}
+
+#movie:hover {
+  opacity: 0.8;
+}
 
 .drawer-hamburger {
   width: 2.5em;
