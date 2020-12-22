@@ -270,13 +270,41 @@ p.text-contents {
   object-fit: cover;
 }
 
-.content-movie {
-  border-radius: 10px;
-  ransition-duration:0.5s;
-  text-align: center;
+.content-m {
+  margin: 0 auto;
+  padding-bottom: 30px;
+  overflow:hidden;
+  cursor:pointer;
+  float: left;
+  width: 85%;
   height: auto;
-  width: 420px;
-  object-fit: cover;
+  padding-left: 15%;
+}
+
+.content-m p {
+  color: #666;
+  font-size: 15px;
+  font-weight: bold;
+  padding-top: 15px;
+}
+
+p.text-m-contents {
+  width: 75%;
+  font-weight: normal;
+  display:inline-block;
+  margin-top: auto;
+  font-size: 13px;
+  color: #999;
+}
+
+.content-movie {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.youtube {
+ margin: 0 auto;
+ width: 100%;
 }
 
 .clear {
