@@ -276,12 +276,12 @@ p.text-contents {
   overflow:hidden;
   cursor:pointer;
   float: left;
-  width: 85%;
+  width: 90%;
   height: auto;
-  padding-left: 5%;
+  padding-left: 10px;
 }
 
-.content-m p {
+p.content-m {
   color: #666;
   font-size: 15px;
   font-weight: bold;
@@ -289,7 +289,7 @@ p.text-contents {
 }
 
 p.text-m-contents {
-  width: 75%;
+  width: 65%;
   font-weight: normal;
   display:inline-block;
   margin-top: auto;
