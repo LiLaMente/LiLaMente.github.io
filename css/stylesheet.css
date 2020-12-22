@@ -340,10 +340,6 @@ footer {
     margin-top: -10px;
     margin-bottom: 20px;
  }
-
- .content-m {
-   width: 100%;
- }
 }
 
 @media all and (max-width: 600px) {
