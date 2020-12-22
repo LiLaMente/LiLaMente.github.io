@@ -257,7 +257,7 @@ a:hover{
 .content-m {
   margin: 0 auto;
   padding-bottom: 30px;
-  padding-left: 20px;
+  padding-left: 10%;
   overflow:hidden;
   cursor:pointer;
   float: left;
