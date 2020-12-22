@@ -274,8 +274,8 @@ p.text-contents {
   border-radius: 10px;
   ransition-duration:0.5s;
   text-align: center;
-  height: 500px;
-  width: auto;
+  height: auto;
+  width: 420px;
   object-fit: cover;
 }
 
